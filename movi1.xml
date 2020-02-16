@@ -1,0 +1,129 @@
+#EXTM3U
+ 
+ 
+ 
+ 
+#EXTINF:-1,LA 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/534
+#EXTINF:-1,La 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/535
+#EXTINF:-1,CANAL SUR
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/571
+#EXTINF:-1,Cuatro HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/539
+#EXTINF:-1,Cuatro HD OPC 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/33746
+#EXTINF:-1,Antena 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/537
+#EXTINF:-1,Antena 3 HD OPC 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/33745
+#EXTINF:-1,Telecinco HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/544
+#EXTINF:-1,Telecinco HD OPC 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/33744
+#EXTINF:-1,La Sexta HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/546
+#EXTINF:-1,La Sexta HD OPC 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/33747
+#EXTINF:-1,Neox HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/653
+#EXTINF:-1,24 HORAS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/550
+#EXTINF:-1,BEMAD HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/559
+#EXTINF:-1,Divinity HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/592
+#EXTINF:-1,DKiss TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/593
+#EXTINF:-1,Nova HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/658
+#EXTINF:-1Energy HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/599
+#EXTINF:-1,Mega HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/668
+#EXTINF:-1,ATRESERIES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/558
+#EXTINF:-1,Canal Extremadura
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/2123
+#EXTINF:-1,Aragon TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/553
+#EXTINF:-1,Canal Málaga
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/2124
+#EXTINF:-1,Andalucia TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/556
+#EXTINF:-1,Canal 0 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/665
+#EXTINF:-1,Movistar Estrenos HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/640
+#EXTINF:-1,Movistar Accion HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/614
+#EXTINF:-1,Movistar Comedia HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/623
+#EXTINF:-1,Movistar Cine HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/622
+#EXTINF:-1,Calle 13 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/575
+#EXTINF:-1,Hollywood HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/607
+#EXTINF:-1,FDF HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/600
+#EXTINF:-1,SyFy HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/673
+#EXTINF:-1,Comedy Central HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/585
+#EXTINF:-1,TCM HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/678
+#EXTINF:-1,TNT HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/649
+#EXTINF:-1,Movistar Series HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/637
+#EXTINF:-1,Movistar Xtra HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/639
+#EXTINF:-1,Fox HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/601
+#EXTINF:-1,FOX Life HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/602
+#EXTINF:-1,AMC HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/552
+#EXTINF:-1,AXN HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/554
+#EXTINF:-1,AXN White HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/557
+#EXTINF:-1,Blaze HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/560
+#EXTINF:-1,Canal Cocina HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/577
+#EXTINF:-1,Canal Decasa HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/578
+#EXTINF:-1,Caza Y Pesca HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/581
+#EXTINF:-1,Cosmo HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/586
+#EXTINF:-1,Discovery Channel HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/646
+#EXTINF:-1,Odisea HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/671
+#EXTINF:-1,Disney XD HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/591
+#EXTINF:-1,Historia HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/606
+#EXTINF:-1,Iberalia TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/610
+#EXTINF:-1,Nat Geo HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/645
+#EXTINF:-1,Nat Geo Wild HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/652
+#EXTINF:-1,Baby TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/561
+#EXTINF:-1,CANAL PANDA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/572
+#EXTINF:-1,Clan TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/582
+#EXTINF:-1,Nick JR HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/654
+#EXTINF:-1,Nickelodeon HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/656
+#EXTINF:-1,MTV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/669
+#EXTINF:-1,SUNDANCE HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://visiona.club:25461/jislam6110/5s20mPIAnW/644
