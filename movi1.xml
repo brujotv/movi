@@ -1,501 +1,249 @@
 #EXTM3U
 
 
-#EXTINF:-1, La 1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342033
-#EXTINF:-1, La 1 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342034
-#EXTINF:-1, La 1 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342035
-#EXTINF:-1, La 2
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342036
-#EXTINF:-1, La 2 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342037
-#EXTINF:-1, Antena 3
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342038
-#EXTINF:-1, Antena 3 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342039
-#EXTINF:-1, Antena 3 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342040
-#EXTINF:-1, Cuatro
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342041
-#EXTINF:-1, Cuatro HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342042
-#EXTINF:-1, Cuatro FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342043
-#EXTINF:-1, Telecinco
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342044
-#EXTINF:-1, Telecinco HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342045
-#EXTINF:-1, Telecinco FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342046
-#EXTINF:-1, La Sexta
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342047
-#EXTINF:-1, La Sexta HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342048
-#EXTINF:-1, La Sexta FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342049
-#EXTINF:-1, Movistar 0
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342050
-#EXTINF:-1, Movistar 0 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342051
-#EXTINF:-1, Movistar 0 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342052
-#EXTINF:-1, Movistar Estrenos
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342053
-#EXTINF:-1, Movistar Estrenos HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342054
-#EXTINF:-1, Movistar Estrenos FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342055
-#EXTINF:-1, Movistar Accion
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342056
-#EXTINF:-1, Movistar Accion HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342057
-#EXTINF:-1, Movistar Accion FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342058
-#EXTINF:-1, Movistar Comedia
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342059
-#EXTINF:-1, Movistar Comedia HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342060
-#EXTINF:-1, Movistar Comedia FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342061
-#EXTINF:-1, Movistar Drama HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342062
-#EXTINF:-1, Movistar Drama FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342063
-#EXTINF:-1, Movistar Drama
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342064
-#EXTINF:-1, Movistar DCINE Ñ
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342065
-#EXTINF:-1, Movistar Cinedoc&Roll
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342066
-#EXTINF:-1, Movistar Cinedoc&Roll HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342067
-#EXTINF:-1, Movistar Cinedoc&Roll FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342068
-#EXTINF:-1, Hollywood HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342070
-#EXTINF:-1, Hollywood FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342071
-#EXTINF:-1, TCM HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342072
-#EXTINF:-1, TCM FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342073
-#EXTINF:-1, TCM
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342074
-#EXTINF:-1, Sundance
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342075
-#EXTINF:-1, Sundance HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342076
-#EXTINF:-1, Sundance FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342077
-#EXTINF:-1, Xtrem
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342078
-#EXTINF:-1, Xtrem HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342079
-#EXTINF:-1, Xtrem FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342080
-#EXTINF:-1, Somos FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342081
-#EXTINF:-1, Dark
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342082
-#EXTINF:-1, Movistar Series
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342083
-#EXTINF:-1, Movistar Series HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342084
-#EXTINF:-1, Movistar Series FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342085
-#EXTINF:-1, Movistar SeriesMania
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342086
-#EXTINF:-1, Movistar SeriesMania HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342087
-#EXTINF:-1, Movistar SeriesMania FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342088
-#EXTINF:-1, TNT
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342089
-#EXTINF:-1, TNT HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342090
-#EXTINF:-1, TNT FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342091
-#EXTINF:-1, SyFy
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342092
-#EXTINF:-1, SyFy HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342093
-#EXTINF:-1, SyFy FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342094
-#EXTINF:-1, Fox
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342095
-#EXTINF:-1, Fox HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342096
-#EXTINF:-1, Fox FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342097
-#EXTINF:-1, Fox Life
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342098
-#EXTINF:-1, Fox Life HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342099
-#EXTINF:-1, Fox Life FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342100
-#EXTINF:-1, Fox News
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342101
-#EXTINF:-1, FDF
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342102
-#EXTINF:-1, Crime Investigacion 
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342103
-#EXTINF:-1, Cosmo HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342104
-#EXTINF:-1, Cosmo
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342105
-#EXTINF:-1, Cosmopolitan FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342106
-#EXTINF:-1, Comedy Central HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342107
-#EXTINF:-1, Comedy Central FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342108
-#EXTINF:-1, Comedy Central
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342109
-#EXTINF:-1, CMM FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342110
-#EXTINF:-1, Calle 13 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342111
-#EXTINF:-1, Calle 13 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342112
-#EXTINF:-1, Calle 13
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342113
-#EXTINF:-1, AXN White HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342114
-#EXTINF:-1, AXN HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342115
-#EXTINF:-1, AXN FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342116
-#EXTINF:-1, AXN White FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342117
-#EXTINF:-1, AXN White
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342118
-#EXTINF:-1,  AXN
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342119
-#EXTINF:-1, AMC FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342120
-#EXTINF:-1, AMC
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342121
-#EXTINF:-1, A3 Series
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342122
-#EXTINF:-1, Nickelodeon
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342123
-#EXTINF:-1, Nickelodeon HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342124
-#EXTINF:-1, Nicckelodeon FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342125
-#EXTINF:-1, Nick JR
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342126
-#EXTINF:-1, Movistar Disney
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342127
-#EXTINF:-1, Disney JR
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342128
-#EXTINF:-1, Disney Channel
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342129
-#EXTINF:-1, Disney Channel HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342130
-#EXTINF:-1, Disney Channel FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342131
-#EXTINF:-1, Disney XD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342132
-#EXTINF:-1, Clan
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342133
-#EXTINF:-1, Clan HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342134
-#EXTINF:-1, Clan FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342135
-#EXTINF:-1, Canal Panda
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342136
-#EXTINF:-1, Baby TV
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342138
-#EXTINF:-1, GH Vip 7 24 Horas HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342139
-#EXTINF:-1, Nova HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342140
-#EXTINF:-1, Neox
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342141
-#EXTINF:-1, Mezzo Live
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342142
-#EXTINF:-1, Mezzo Live FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342143
-#EXTINF:-1, Inter Economia
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342144
-#EXTINF:-1, Energy
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342145
-#EXTINF:-1, Dmax
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342146
-#EXTINF:-1, Dkiss
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342147
-#EXTINF:-1, Divinity
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342148
-#EXTINF:-1, De Casa HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342149
-#EXTINF:-1, De Casa FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342150
-#EXTINF:-1, De Casa
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342151
-#EXTINF:-1, Canal Cocina
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342152
-#EXTINF:-1, Canal Cocina HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342153
-#EXTINF:-1, Canal Cocina FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342154
-#EXTINF:-1, Be Mad
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342156
-#EXTINF:-1, Be Mad HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342157
-#EXTINF:-1, Be Mad FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342158
-#EXTINF:-1, Mega HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342159
-#EXTINF:-1, MTV HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342160
-#EXTINF:-1, Canal Orbe21 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342161
-#EXTINF:-1, Paramount Channel HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342162
-#EXTINF:-1, Sol Music FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342163
-#EXTINF:-1, Viajar
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342164
-#EXTINF:-1, Viajar HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342165
-#EXTINF:-1, Viajar FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342166
-#EXTINF:-1, Odisea HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342167
-#EXTINF:-1,  Discovery Channel HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342168
-#EXTINF:-1, National Geographic HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342169
-#EXTINF:-1, National Geographic FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342170
-#EXTINF:-1, National Geographic
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342171
-#EXTINF:-1, National Geographic Wild
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342172
-#EXTINF:-1, National Geographic Wild HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342173
-#EXTINF:-1, National Geographic Wild FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342174
-#EXTINF:-1, Historia
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342175
-#EXTINF:-1, Historia HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342176
-#EXTINF:-1, Historia FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342177
-#EXTINF:-1, Caza y Pesca
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342178
-#EXTINF:-1, Caza y Pesca HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342179
-#EXTINF:-1, Caza y Pesca FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342180
-#EXTINF:-1, Iberalia
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342181
-#EXTINF:-1, Multideporte
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342182
-#EXTINF:-1, Movistar Vamos
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342183
-#EXTINF:-1, Movistar Vamos HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342184
-#EXTINF:-1, Movistar Vamos FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342185
-#EXTINF:-1,  Vamos BAR 1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342186
-#EXTINF:-1,  Vamos BAR 2
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342187
-#EXTINF:-1,  Liga TV BAR
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342188
-#EXTINF:-1,  Liga TV BAR HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342189
-#EXTINF:-1,  Liga TV BAR FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342190
-#EXTINF:-1,  Liga TV BAR 1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342191
-#EXTINF:-1,  Liga TV BAR 3
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342192
-#EXTINF:-1,  Liga TV BAR 4
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342193
-#EXTINF:-1,  Movistar La Liga HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342195
-#EXTINF:-1,  Movistar La Liga FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342196
-#EXTINF:-1,  Movistar La Liga 1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342197
-#EXTINF:-1,  Movistar La Liga 1 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342198
-#EXTINF:-1,  Movistar La Liga 2
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342199
-#EXTINF:-1,  Movistar La Liga 2 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342200
-#EXTINF:-1,  Movistar La Liga 3
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342201
-#EXTINF:-1,  Movistar La Liga 3 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342202
-#EXTINF:-1,  Movistar La Liga 4
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342203
-#EXTINF:-1,  Movistar La Liga 5
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342204
-#EXTINF:-1,  Movistar La Liga 6
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342205
-#EXTINF:-1,  Movistar La Liga 7
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342206
-#EXTINF:-1,  Movistar La Liga 8
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342207
-#EXTINF:-1,  Movistar La Liga 9
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342208
-#EXTINF:-1,  Movistar La Liga 10
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342209
-#EXTINF:-1,  Movistar Liga de Campeones 1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342212
-#EXTINF:-1,  Movistar Liga de Campeones 1 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342213
-#EXTINF:-1,  Movistar Liga de Campeones 2
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342214
-#EXTINF:-1,  Movistar Liga de Campeones 2 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342215
-#EXTINF:-1,  Movistar Liga de Campeones 3
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342216
-#EXTINF:-1,  Movistar de Liga Campeones  4
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342217
-#EXTINF:-1,  Movistar de Liga Campeones 5
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342218
-#EXTINF:-1,  Movistar de Liga Campeones 6
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342219
-#EXTINF:-1,  Movistar de Liga Campeones 7
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342220
-#EXTINF:-1,  Movistar de Liga Campeones 8
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342221
-#EXTINF:-1,  Movistar Deporte
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342222
-#EXTINF:-1,  Movistar Deporte HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342223
-#EXTINF:-1,  Movistar Deporte FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342224
-#EXTINF:-1,  Movistar Deporte 1 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342225
-#EXTINF:-1,  Movistar Deporte 1 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342226
-#EXTINF:-1,  Movistar Deporte 2
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342227
-#EXTINF:-1,  Movistar Deporte 3
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342228
-#EXTINF:-1,  Movistar Deporte 4
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342229
-#EXTINF:-1,  Movistar Deporte 5
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342230
-#EXTINF:-1,  Movistar Deporte 6
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342231
-#EXTINF:-1,  Movistar Deporte 7
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342232
-#EXTINF:-1,  Movistar Deporte 8
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342233
-#EXTINF:-1,  Gol TV
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342234
-#EXTINF:-1,  Movistar F1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342235
-#EXTINF:-1,  Movistar F1 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342236
-#EXTINF:-1,  Movistar F1 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342237
-#EXTINF:-1,  Movistar Golf
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342238
-#EXTINF:-1,  Movistar Golf HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342239
-#EXTINF:-1,  Movistar Golf FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342240
-#EXTINF:-1,  Movistar Toros
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342241
-#EXTINF:-1,  Movistar Toros HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342242
-#EXTINF:-1,  Movistar Toros FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342243
-#EXTINF:-1,  EuroSport
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342244
-#EXTINF:-1,  EuroSport HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342245
-#EXTINF:-1,  EuroSport FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342246
-#EXTINF:-1,  EuroSport 2 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342247
-#EXTINF:-1,  Dazn
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342248
-#EXTINF:-1,  Dazn HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342249
-#EXTINF:-1,  MotoGP FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342250
-#EXTINF:-1,  Teledeporte HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342251
-#EXTINF:-1,  Teledeporte FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342252
-#EXTINF:-1,  Real Madrid TV HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342253
-#EXTINF:-1,  Barca TV HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342254
-#EXTINF:-1, LaLiga TV BAR HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342255
-#EXTINF:-1, LaLiga TV BAR FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342256
-#EXTINF:-1, Movistar la Liga HD (Solo eventos importantes)
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342257
-#EXTINF:-1, Movistar La Liga HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342258
-#EXTINF:-1,  Movistar Liga Campeones FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342259
-#EXTINF:-1, Tele Madrid FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342260
-#EXTINF:-1, Canal Sur HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342261
-#EXTINF:-1, Canal Sur FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342262
-#EXTINF:-1, Ten HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342263
-#EXTINF:-1, TV3 FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342264
-#EXTINF:-1, TV 3 Cmmeres
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342265
-#EXTINF:-1, Extremadura TV HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342266
-#EXTINF:-1, ETB 1 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342267
-#EXTINF:-1, Esport 3 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342268
-#EXTINF:-1, Aragon TV HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342269
-#EXTINF:-1, Andalucia TV
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342270
-#EXTINF:-1, 24 Horas HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342271
-#EXTINF:-1, 13 TV HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342272
-#EXTINF:-1, TV 13 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342273
-#EXTINF:-1, Teleonuba
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342274
-#EXTINF:-1, Lebrija TV
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342275
-#EXTINF:-1, La Otra HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342276
-#EXTINF:-1, InterAlmeria TV FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342277
-#EXTINF:-1,  Hit TV HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342278
-#EXTINF:-1, Condavision HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342279
-#EXTINF:-1, Classica HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342280
-#EXTINF:-1, Bon Dia TV
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342282
-#EXTINF:-1, Alternativa TV
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342283
-#EXTINF:-1, 8Tv
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342284
-#EXTINF:-1, 7RM FHD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342285
-#EXTINF:-1, 33
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342286
-#EXTINF:-1, 324 Exclusiu
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342287
-#EXTINF:-1, 324
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://tvla.xyz:80/noslsahr/X5G01h0xki/1342288
+#EXTINF:-1,#0 HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4259.m3u8
+#EXTINF:-1,CALLE 13 TV HD RU
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4279.m3u8
+#EXTINF:-1,A & E HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4276.m3u8
+#EXTINF:-1,AMC HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4274.m3u8
+#EXTINF:-1,Antena 3 HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4271.m3u8
+#EXTINF:-1,AXN HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4270.m3u8
+#EXTINF:-1,AXN White HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4268.m3u8
+#EXTINF:-1,Barca TV HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4265.m3u8
+#EXTINF:-1,Bein La Liga HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4264.m3u8
+#EXTINF:-1,La Liga Bar HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4263.m3u8
+#EXTINF:-1,Boing HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4261.m3u8
+#EXTINF:-1,Calle 13 HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4260.m3u8
+#EXTINF:-1,Movistar+ Accion HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4250.m3u8
+#EXTINF:-1,Movistar+  Estrenos HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4249.m3u8
+#EXTINF:-1,Movistar+ Comedia HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4248.m3u8
+#EXTINF:-1,Movistar+ Series HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4247.m3u8
+#EXTINF:-1,Movistar+ CineDoc&Roll HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4245.m3u8
+#EXTINF:-1,Movistar+ Seriesmania HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4246.m3u8
+#EXTINF:-1,Movistar+ Cine N HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4579.m3u8
+#EXTINF:-1,Movistar+ Golf FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4197.m3u8
+#EXTINF:-1,Movistar+ Moto GP HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4202.m3u8
+#EXTINF:-1,Movistar+ Formula FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/17364.m3u8
+#EXTINF:-1,Movistar+  Deportes 1 HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4201.m3u8
+#EXTINF:-1,Movistar+ Deportes 2 HD ES Match Time
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4200.m3u8
+#EXTINF:-1,Discovery Channel HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4235.m3u8
+#EXTINF:-1,Nat Geographic HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4194.m3u8
+#EXTINF:-1,Nat Geo Wild HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4193.m3u8
+#EXTINF:-1,Nickelodeon HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4189.m3u8
+#EXTINF:-1,24 Horas HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4258.m3u8
+#EXTINF:-1,Caza y Pesca HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4243.m3u8
+#EXTINF:-1,Comedy Central HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4241.m3u8
+#EXTINF:-1,Cuatro HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4238.m3u8
+#EXTINF:-1,Disney Channel HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4233.m3u8
+#EXTINF:-1,Fox HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4219.m3u8
+#EXTINF:-1,Fox Life HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4218.m3u8
+#EXTINF:-1,Historia HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4216.m3u8
+#EXTINF:-1,Hollywood HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4215.m3u8
+#EXTINF:-1,La 1 HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4211.m3u8
+#EXTINF:-1,La 2 HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4210.m3u8
+#EXTINF:-1,La Sexta HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4208.m3u8
+#EXTINF:-1,Mega HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4205.m3u8
+#EXTINF:-1,Neox HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4191.m3u8
+#EXTINF:-1,Nova HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4188.m3u8
+#EXTINF:-1,Paramount Channel HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4184.m3u8
+#EXTINF:-1,Real Madrid TV HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4180.m3u8
+#EXTINF:-1,Syfy HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4175.m3u8
+#EXTINF:-1,TCM HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4164.m3u8
+#EXTINF:-1,Telecinco HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4163.m3u8
+#EXTINF:-1,Teledeporte HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4162.m3u8
+#EXTINF:-1,TNT HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4156.m3u8
+#EXTINF:-1,Toros TV HD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/4155.m3u8
+#EXTINF:-1,#0 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45615.m3u8
+#EXTINF:-1,AMC FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45636.m3u8
+#EXTINF:-1,ANTENA 3 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45608.m3u8
+#EXTINF:-1,AXN FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45623.m3u8
+#EXTINF:-1,AXN WHITE FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45624.m3u8
+#EXTINF:-1,BEMAD FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45612.m3u8
+#EXTINF:-1,BLAZE FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45650.m3u8
+#EXTINF:-1,CALLE 13 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45622.m3u8
+#EXTINF:-1,CANAL COCINA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45653.m3u8
+#EXTINF:-1,CANAL DECASA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45654.m3u8
+#EXTINF:-1,CAZAYPESCA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45644.m3u8
+#EXTINF:-1,CLAN FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45658.m3u8
+#EXTINF:-1,CNN Intl FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45717.m3u8
+#EXTINF:-1,COMEDY CENTRAL FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45621.m3u8
+#EXTINF:-1,COSMO FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45619.m3u8
+#EXTINF:-1,CRIMEN INVESTIGACION FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45651.m3u8
+#EXTINF:-1,CUATRO FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45609.m3u8
+#EXTINF:-1,DARK FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45618.m3u8
+#EXTINF:-1,DISCOVERY FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45648.m3u8
+#EXTINF:-1,DISNEY CH FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45656.m3u8
+#EXTINF:-1,ETB 1 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45708.m3u8
+#EXTINF:-1,ETB 2 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45709.m3u8
+#EXTINF:-1,EUROSPORT 1 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45668.m3u8
+#EXTINF:-1,EUROSPORT 2 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45669.m3u8
+#EXTINF:-1,FOX FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45627.m3u8
+#EXTINF:-1,FOX LIFE FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45628.m3u8
+#EXTINF:-1,GOL TV FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45667.m3u8
+#EXTINF:-1,HISTORIA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45647.m3u8
+#EXTINF:-1,HOLLYWOOD FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45634.m3u8
+#EXTINF:-1,IBERALIA TV FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45643.m3u8
+#EXTINF:-1,LA 1 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45606.m3u8
+#EXTINF:-1,LA 2 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45607.m3u8
+#EXTINF:-1,LA SEXTA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45611.m3u8
+#EXTINF:-1,LALIGA TV BAR FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45690.m3u8
+#EXTINF:-1,M. #VAMOS FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45659.m3u8
+#EXTINF:-1,M. ACCION FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45631.m3u8
+#EXTINF:-1,M. CINEDOC&ROLL FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45635.m3u8
+#EXTINF:-1,M. COMEDIA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45633.m3u8
+#EXTINF:-1,M. DEPORTES 1 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45661.m3u8
+#EXTINF:-1,M. DEPORTES FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45660.m3u8
+#EXTINF:-1,M. DISNEY FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45632.m3u8
+#EXTINF:-1,M. DRAMA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45630.m3u8
+#EXTINF:-1,M. ESTRENOS FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45629.m3u8
+#EXTINF:-1,M. FORMULA1 FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45673.m3u8
+#EXTINF:-1,M. GOLF FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45670.m3u8
+#EXTINF:-1,M. LALIGA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45680.m3u8
+#EXTINF:-1,M. LIGA DE CAMPEONES FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45691.m3u8
+#EXTINF:-1,M. SERIES FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45626.m3u8
+#EXTINF:-1,M. SERIESMANIA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45625.m3u8
+#EXTINF:-1,MEZZO LIVE FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45713.m3u8
+#EXTINF:-1,NAT GEO FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45645.m3u8
+#EXTINF:-1,NAT GEO WILD FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45646.m3u8
+#EXTINF:-1,NEOX FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45617.m3u8
+#EXTINF:-1,NHK WORLD-JPN FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45721.m3u8
+#EXTINF:-1,NICKELODEON FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45657.m3u8
+#EXTINF:-1,NOVA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45655.m3u8
+#EXTINF:-1,ODISEA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45649.m3u8
+#EXTINF:-1,ONEBY FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45710.m3u8
+#EXTINF:-1,REALMADRID TV FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45671.m3u8
+#EXTINF:-1,SOL MUSICA FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45711.m3u8
+#EXTINF:-1,SOMOS FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45639.m3u8
+#EXTINF:-1,SUNDANCE FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45638.m3u8
+#EXTINF:-1,SYFY FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45616.m3u8
+#EXTINF:-1,TCM FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45637.m3u8
+#EXTINF:-1,TELECINCO FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45610.m3u8
+#EXTINF:-1,TELEDEPORTE FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45672.m3u8
+#EXTINF:-1,TELEMADRID FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45707.m3u8
+#EXTINF:-1,TELESUR FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45715.m3u8
+#EXTINF:-1,TNT FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45620.m3u8
+#EXTINF:-1,TOROS TV FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45641.m3u8
+#EXTINF:-1,VIAJAR FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45652.m3u8
+#EXTINF:-1,XTRM FHD ES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://live.redfhd.com:8000/live/cemal/sakarya54/45640.m3u8
