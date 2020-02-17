@@ -1,0 +1,50 @@
+#EXTM3U
+
+#EXTINF:-1, AMC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16391
+#EXTINF:-1, AXN
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/20772
+#EXTINF:-1, AXN HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/10710
+#EXTINF:-1, AXN WHITE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16392
+#EXTINF:-1, AXN-WHITE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/20773
+#EXTINF:-1, BARCA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/20783
+#EXTINF:-1, BARCA TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/12558
+#EXTINF:-1, BOING
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16394
+#EXTINF:-1, CUATRO HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/12318
+#EXTINF:-1, MOVISTAR ESTRENOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16408
+#EXTINF:-1, EUROSPORT 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16409
+#EXTINF:-1, FOX LIFE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16412
+#EXTINF:-1, HOLLYWOOD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16415
+#EXTINF:-1, LA 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16418
+#EXTINF:-1, LA 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/12828
+#EXTINF:-1, LA 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16419
+#EXTINF:-1, LA 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/12829
+#EXTINF:-1, LA SEXTA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16417
+#EXTINF:-1, REAL MADRID TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/20784
+#EXTINF:-1, REAL MADRID TV ERSATZ
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/10674
+#EXTINF:-1, REAL MADRID TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/12659
+#EXTINF:-1, TELECINCO HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16430
+#EXTINF:-1, TELEDEPORTE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16431
+#EXTINF:-1, TNT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://hdlivetv.tv:8080/s1.niacam/skyppedinidin/16432
