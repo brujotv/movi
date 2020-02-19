@@ -1,169 +1,1039 @@
 #EXTM3U
 
-#EXTINF:-1,Vamos HD SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1288?code=1701273726237058
-#EXTINF:-1,La 1 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1213?code=1701273726237058
-#EXTINF:-1,La 2 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1268?code=1701273726237058
-#EXTINF:-1,Antenna3 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1214?code=1701273726237058
-#EXTINF:-1,Cuatro SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1212?code=1701273726237058
-#EXTINF:-1,Tele Cinco SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1217?code=1701273726237058
-#EXTINF:-1,La Sexta SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1215?code=1701273726237058
-#EXTINF:-1,Alquiler 1 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1289?code=1701273726237058
-#EXTINF:-1,Alquiler 2 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1290?code=1701273726237058
-#EXTINF:-1,Alquiler 3 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1291?code=1701273726237058
-#EXTINF:-1,Alquiler 4 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1292?code=1701273726237058
-#EXTINF:-1,Alquiler 5 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1293?code=1701273726237058
-#EXTINF:-1,A Tre Series
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1247?code=1701273726237058
-#EXTINF:-1,Clan SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1250?code=1701273726237058
-#EXTINF:-1,24 H SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1251?code=1701273726237058
-#EXTINF:-1,Devinity SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1252?code=1701273726237058
-#EXTINF:-1,FDF SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1253?code=1701273726237058
-#EXTINF:-1,Be Mad SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1254?code=1701273726237058
-#EXTINF:-1,GOL SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1255?code=1701273726237058
-#EXTINF:-1,D Max SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1256?code=1701273726237058
-#EXTINF:-1,BOING SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1257?code=1701273726237058
-#EXTINF:-1,Energy SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1258?code=1701273726237058
-#EXTINF:-1,13 Tv Defenitivo SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1259?code=1701273726237058
-#EXTINF:-1,Mega SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1260?code=1701273726237058
-#EXTINF:-1,Andaloucia SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1261?code=1701273726237058
-#EXTINF:-1,BOM SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1262?code=1701273726237058
-#EXTINF:-1,Canalsur SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1263?code=1701273726237058
-#EXTINF:-1,Canalsur 2 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1264?code=1701273726237058
-#EXTINF:-1,TEN SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1265?code=1701273726237058
-#EXTINF:-1,D Kiss  SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1266?code=1701273726237058
-#EXTINF:-1,TDP SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1267?code=1701273726237058
-#EXTINF:-1,Canal+ Estrenos SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1200?code=1701273726237058
-#EXTINF:-1,Movistar Series
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1207?code=1701273726237058
-#EXTINF:-1,Canal+ Xtra SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1210?code=1701273726237058
-#EXTINF:-1,Movistar Comedia
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1205?code=1701273726237058
-#EXTINF:-1,Movistar Drama
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1218?code=1701273726237058
-#EXTINF:-1,Movistar Action
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1219?code=1701273726237058
-#EXTINF:-1,Canal+ Hollywood SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1211?code=1701273726237058
-#EXTINF:-1,Movistar Cocina
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1209?code=1701273726237058
-#EXTINF:-1,VIAJAR SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1206?code=1701273726237058
-#EXTINF:-1,TCM SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1204?code=1701273726237058
-#EXTINF:-1,LaLiga TV Bar 1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1203?code=1701273726237058
-#EXTINF:-1,M.L. Campeones HD SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1281?code=1701273726237058
-#EXTINF:-1,La Liga 123 HD SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1282?code=1701273726237058
-#EXTINF:-1,LaLiga TV Bar
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1286?code=1701273726237058
-#EXTINF:-1,Bein Sport SPANA
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1220?code=1701273726237058
-#EXTINF:-1,Movistar LaLiga HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1221?code=1701273726237058
-#EXTINF:-1,Movistar Seriesmania
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1222?code=1701273726237058
-#EXTINF:-1,Movistar LaLiga 1 HD
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1224?code=1701273726237058
-#EXTINF:-1,Real Madrid CH.
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1223?code=1701273726237058
-#EXTINF:-1,Barca Tv
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1225?code=1701273726237058
-#EXTINF:-1,Movistar Toros
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1226?code=1701273726237058
-#EXTINF:-1,Movistar Golf
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1227?code=1701273726237058
-#EXTINF:-1,TELE DEPORTE SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1208?code=1701273726237058
-#EXTINF:-1,Eurosport 1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1202?code=1701273726237058
-#EXTINF:-1,Canal Panda SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1228?code=1701273726237058
-#EXTINF:-1,Neox SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1229?code=1701273726237058
-#EXTINF:-1,Moto GP HD SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1284?code=1701273726237058
-#EXTINF:-1,Formula1 HD SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1285?code=1701273726237058
-#EXTINF:-1,Canal Yomvi SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1230?code=1701273726237058
-#EXTINF:-1,Paramount Ch. SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1231?code=1701273726237058
-#EXTINF:-1,Caza y Pesca SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1280?code=1701273726237058
-#EXTINF:-1,Nat Geo SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1216?code=1701273726237058
-#EXTINF:-1,Nat. Geo. Wild
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1232?code=1701273726237058
-#EXTINF:-1,Nova SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1233?code=1701273726237058
-#EXTINF:-1,Syfy SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1234?code=1701273726237058
-#EXTINF:-1,Cosemopolitan SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1235?code=1701273726237058
-#EXTINF:-1,TNT SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1236?code=1701273726237058
-#EXTINF:-1,Calle 13 SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1237?code=1701273726237058
-#EXTINF:-1,AMC SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1238?code=1701273726237058
-#EXTINF:-1,Odisea SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1239?code=1701273726237058
-#EXTINF:-1,Fox SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1240?code=1701273726237058
-#EXTINF:-1,Fox life SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1241?code=1701273726237058
-#EXTINF:-1,Fox News SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1242?code=1701273726237058
-#EXTINF:-1,MTV SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1243?code=1701273726237058
-#EXTINF:-1,Nickelodeon SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1244?code=1701273726237058
-#EXTINF:-1,Disney Ch. SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1201?code=1701273726237058
-#EXTINF:-1,Disney Junior SP
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch1246?code=1701273726237058
-#EXTINF:-1 group-title="MTV",MTV Music 24
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://htq.brasilia.me/iptv/ch4506?code=1701273726237058
-#EXTINF:-1,MTV Hits
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch4501?code=1701273726237058
-#EXTINF:-1,MTV Rocks
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch4503?code=1701273726237058
-#EXTINF:-1,MTV Dance
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch4502?code=1701273726237058
-#EXTINF:-1,VH-1
-plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://cdng.pubcdn.tn/iptv/ch4504?code=1701273726237058
-#EXTINF:-1,VH-1 Classic
+
+#EXTINF:-1,ES | La 1 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31762
+#EXTINF:-1,ES | La 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31763
+#EXTINF:-1,ES | La 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31764
+#EXTINF:-1,ES | LA 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31765
+#EXTINF:-1,ES | Antena 3 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31766
+#EXTINF:-1,ES | Antena 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31767
+#EXTINF:-1,ES | Cuatro FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31768
+#EXTINF:-1,ES | Cuatro HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31769
+#EXTINF:-1,ES | Telecinco FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31770
+#EXTINF:-1,ES | TeleCinco HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31771
+#EXTINF:-1,ES | La Sexta FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31772
+#EXTINF:-1,ES | La Sexta HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31773
+#EXTINF:-1,ES | Fdf HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31774
+#EXTINF:-1,ES | Fdf
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31775
+#EXTINF:-1,ES | Energy HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31776
+#EXTINF:-1,ES | EnergyES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31777
+#EXTINF:-1,ES | DMax
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31778
+#EXTINF:-1,ES | Divinity HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31779
+#EXTINF:-1,ES | Divinity
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31780
+#EXTINF:-1,ES | Nova HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31781
+#EXTINF:-1,ES | Nova
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31782
+#EXTINF:-1,ES | Neox HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31783
+#EXTINF:-1,ES | Neox
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31784
+#EXTINF:-1,ES | Mega HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31785
+#EXTINF:-1,ES | Be Mad HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31786
+#EXTINF:-1,ES | Be Mad SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31787
+#EXTINF:-1,ES | DKiss TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31788
+#EXTINF:-1,ES | 24 Horas SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31789
+#EXTINF:-1,ES | Intereconomia SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31790
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ AUTONOMICAS ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31791
+#EXTINF:-1,ES | 7RM SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31792
+#EXTINF:-1,ES | Canal Sur FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31793
+#EXTINF:-1,ES | Aragon Tv SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31794
+#EXTINF:-1,ES | Tv3 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31795
+#EXTINF:-1,ES | A Punt
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31796
+#EXTINF:-1,ES | TeleMadrid FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31797
+#EXTINF:-1,ES | Galicia TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31798
+#EXTINF:-1,ES | Galicia TV 2 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31799
+#EXTINF:-1,ES | Cmm TV SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31800
+#EXTINF:-1,ES | Tpa Asturias 7 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31801
+#EXTINF:-1,ES | El Correo TV SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31802
+#EXTINF:-1,ES | Canal Parlamento
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31803
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ FUTBOL ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31804
+#EXTINF:-1,ES | M. LaLiga FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31805
+#EXTINF:-1,ES | M. LaLiga SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31806
+#EXTINF:-1,ES | M. LaLiga 1 FHD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31807
+#EXTINF:-1,ES | M. LaLiga 1 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31808
+#EXTINF:-1,ES | M. LaLiga 2 FHD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31809
+#EXTINF:-1,ES | M. LaLiga 2 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31810
+#EXTINF:-1,ES | M. LaLiga 3 FHD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31811
+#EXTINF:-1,ES | M. LaLiga 3 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31812
+#EXTINF:-1,ES | M. LaLiga 4 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31813
+#EXTINF:-1,ES | M. LaLiga 5 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31814
+#EXTINF:-1,ES | M. LaLiga 6 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31815
+#EXTINF:-1,ES | M. LaLiga 7 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31816
+#EXTINF:-1,ES | M. LaLiga 8 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31817
+#EXTINF:-1,ES | M. LaLiga 9 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31818
+#EXTINF:-1,ES | M. LaLiga 10 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31819
+#EXTINF:-1,ES | LaLiga TV BAR FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31820
+#EXTINF:-1,ES | LaLigaTV BAR 1 SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31821
+#EXTINF:-1,ES | LaLigaTV BAR 2 SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31822
+#EXTINF:-1,ES | LaLigaTV BAR 3 SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31823
+#EXTINF:-1,ES | LaLigaTV BAR 4 SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31824
+#EXTINF:-1,ES | M. LCampeones SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31825
+#EXTINF:-1,ES | M. LCampeones 1 FHD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31826
+#EXTINF:-1,ES | M. LCampeones 2 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31827
+#EXTINF:-1,ES | M. LCampeones 3 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31828
+#EXTINF:-1,ES | M. LCampeones 4 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31829
+#EXTINF:-1,ES | M. LCampeones 5 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31830
+#EXTINF:-1,ES | M. LCampeones 6 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31831
+#EXTINF:-1,ES | M. LCampeones 7 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31832
+#EXTINF:-1,ES | M. LCampeones 8 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31833
+#EXTINF:-1,ES | Futbol Replay
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31834
+#EXTINF:-1,ES | Gol HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31835
+#EXTINF:-1,ES | Gol SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31836
+#EXTINF:-1,ES | R. Madrid TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31837
+#EXTINF:-1,ES | Barca TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31838
+#EXTINF:-1,ES | Barca TV FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31839
+#EXTINF:-1,ES | Sevilla TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31840
+#EXTINF:-1,ES | Betis TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31841
+#EXTINF:-1,ES | UD Las Palmas HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31842
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ DEPORTES ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31843
+#EXTINF:-1,ES | Multideporte
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31844
+#EXTINF:-1,ES | Dazn FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31845
+#EXTINF:-1,ES | Dazn HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31846
+#EXTINF:-1,ES | M. Formula 1 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31847
+#EXTINF:-1,ES | M. Formula 1 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31848
+#EXTINF:-1,ES | Moto Adv Channel HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31849
+#EXTINF:-1,ES | Wrc
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31850
+#EXTINF:-1,ES | Dakar TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31851
+#EXTINF:-1,ES | El Garaje TV SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31852
+#EXTINF:-1,ES | #Vamos FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31853
+#EXTINF:-1,ES | #Vamos SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31854
+#EXTINF:-1,ES | #Vamos BAR
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31855
+#EXTINF:-1,ES | #Vamos BAR 1 SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31856
+#EXTINF:-1,ES | #Vamos BAR 2 SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31857
+#EXTINF:-1,ES | M. Deportes FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31858
+#EXTINF:-1,ES | M. Deportes SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31859
+#EXTINF:-1,ES | M. Deportes 1 FHD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31860
+#EXTINF:-1,ES | M. Deportes 1 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31861
+#EXTINF:-1,ES | M. Deportes 2 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31862
+#EXTINF:-1,ES | M. Deportes 3 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31863
+#EXTINF:-1,ES | M. Deportes 4 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31864
+#EXTINF:-1,ES | M. Deportes 5 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31865
+#EXTINF:-1,ES | M. Deportes 6 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31866
+#EXTINF:-1,ES | M. Deportes 7 SD SOLO EVENTOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31867
+#EXTINF:-1,ES | Eurosport 1 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31868
+#EXTINF:-1,ES | Eurosport 1 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31869
+#EXTINF:-1,ES | Eurosport 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31870
+#EXTINF:-1,ES | M. Golf FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31871
+#EXTINF:-1,ES | M. Golf SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31872
+#EXTINF:-1,ES | Teledeporte FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31873
+#EXTINF:-1,ES | Teledeporte SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31874
+#EXTINF:-1,ES | Redbull HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31875
+#EXTINF:-1,ES | Fight Time FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31876
+#EXTINF:-1,ES | Insight TV FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31877
+#EXTINF:-1,ES | Nba TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31878
+#EXTINF:-1,ES | U-Beat FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31879
+#EXTINF:-1,ES | U-Beat HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31880
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ CINE ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31881
+#EXTINF:-1,ES | M. Estrenos FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31882
+#EXTINF:-1,ES | M. Estrenos SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31883
+#EXTINF:-1,ES | M. Drama FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31884
+#EXTINF:-1,ES | M. Drama SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31885
+#EXTINF:-1,ES | M. Comedia FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31886
+#EXTINF:-1,ES | M. Comedia SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31887
+#EXTINF:-1,ES | M. CineDoc&Roll FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31888
+#EXTINF:-1,ES | M. CineDoc&Roll SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31889
+#EXTINF:-1,ES | M. Accion FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31890
+#EXTINF:-1,ES | M. Accion SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31891
+#EXTINF:-1,ES | M. Cine Ñ FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31892
+#EXTINF:-1,ES | M. Cine Ñ SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31893
+#EXTINF:-1,ES | Hollywood FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31894
+#EXTINF:-1,ES | Hollywood SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31895
+#EXTINF:-1,ES | Tcm FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31896
+#EXTINF:-1,ES | Tcm SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31897
+#EXTINF:-1,ES | Dark FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31898
+#EXTINF:-1,ES | Xtrm FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31899
+#EXTINF:-1,ES | Xtrm SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31900
+#EXTINF:-1,ES | Paramount SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31901
+#EXTINF:-1,ES | Sundance FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31902
+#EXTINF:-1,ES | Sundance TV SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31903
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ SERIES ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31904
+#EXTINF:-1,ES | M. Series FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31905
+#EXTINF:-1,ES | M. Series SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31906
+#EXTINF:-1,ES | M. Seriesmania FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31907
+#EXTINF:-1,ES | M. Seriesmania SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31908
+#EXTINF:-1,ES | Orange Series FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31909
+#EXTINF:-1,ES | Fox FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31910
+#EXTINF:-1,ES | Fox SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31911
+#EXTINF:-1,ES | Fox Life FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31912
+#EXTINF:-1,ES | Fox Life SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31913
+#EXTINF:-1,ES | Axn FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31914
+#EXTINF:-1,ES | Axn SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31915
+#EXTINF:-1,ES | Axn White FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31916
+#EXTINF:-1,ES | Axn White SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31917
+#EXTINF:-1,ES | Amc FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31918
+#EXTINF:-1,ES | Amc SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31919
+#EXTINF:-1,ES | Calle 13 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31920
+#EXTINF:-1,ES | Calle 13 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31921
+#EXTINF:-1,ES | Tnt FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31922
+#EXTINF:-1,ES | Tnt SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31923
+#EXTINF:-1,ES | Comedy Central FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31924
+#EXTINF:-1,ES | Comedy Central SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31925
+#EXTINF:-1,ES | Syfy FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31926
+#EXTINF:-1,ES | Syfy SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31927
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ INFANTILES ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31928
+#EXTINF:-1,ES | Nickelodeon FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31929
+#EXTINF:-1,ES | Nickelodeon SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31930
+#EXTINF:-1,ES | Nick Jr SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31931
+#EXTINF:-1,ES | M. Disney FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31932
+#EXTINF:-1,ES | M. Disney SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31933
+#EXTINF:-1,ES | Disney XD SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31934
+#EXTINF:-1,ES | Disney JR SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31935
+#EXTINF:-1,ES | Disney CH. SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31936
+#EXTINF:-1,ES | Disney CH FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31937
+#EXTINF:-1,ES | Clan Tve SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31938
+#EXTINF:-1,ES | Canal Panda SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31939
+#EXTINF:-1,ES | Boing HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31940
+#EXTINF:-1,ES | Boing SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31941
+#EXTINF:-1,ES | Baby TV SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31942
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ ESTILO DE VIDA ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31943
+#EXTINF:-1,ES | #0 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31944
+#EXTINF:-1,ES | #0 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31945
+#EXTINF:-1,ES | Decasa FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31946
+#EXTINF:-1,ES | Canal Decasa SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31947
+#EXTINF:-1,ES | Canal Cocina FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31948
+#EXTINF:-1,ES | Canal Cocina HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31949
+#EXTINF:-1,ES | Canal Cocina SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31950
+#EXTINF:-1,ES | Blaze HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31951
+#EXTINF:-1,ES | Blaze SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31952
+#EXTINF:-1,ES | MtMad FHD INFLUENCERS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31953
+#EXTINF:-1,ES | Caza y Pesca FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31954
+#EXTINF:-1,ES | Caza y Pesca SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31955
+#EXTINF:-1,ES | Iberalia TV FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31956
+#EXTINF:-1,ES | Iberalia TV SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31957
+#EXTINF:-1,ES | Cazavision HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31958
+#EXTINF:-1,ES | Toros FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31959
+#EXTINF:-1,ES | Toros SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31960
+#EXTINF:-1,ES | Cosmo FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31961
+#EXTINF:-1,ES | Cosmo SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31962
+#EXTINF:-1,ES | Crimen + Investigacion FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31963
+#EXTINF:-1,ES | Crimen+Investigacion SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31964
+#EXTINF:-1,ES | Gran Hermano HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31965
+#EXTINF:-1,ES | Gran Hermano SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31966
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ DOCUMENTALES ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31967
+#EXTINF:-1,ES | Nat Geograph FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31968
+#EXTINF:-1,ES | Nat Geograph SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31969
+#EXTINF:-1,ES | Ng Wild FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31970
+#EXTINF:-1,ES | Historia SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31971
+#EXTINF:-1,ES | Viajar FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31972
+#EXTINF:-1,ES | Viajar SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31973
+#EXTINF:-1,ES | Discovery Chanel HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31974
+#EXTINF:-1,ES | Discovery Chanel SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31975
+#EXTINF:-1,ES | Odisea FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31976
+#EXTINF:-1,ES | Canal Odisea SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31977
+#EXTINF:-1,ES | ▂ ▄ ▅ ▆ MUSICALES ▆ ▅ ▄ ▂
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31978
+#EXTINF:-1,ES | Sol Musica FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31979
+#EXTINF:-1,ES | Top Latino SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31980
+#EXTINF:-1,ES | VH1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31981
+#EXTINF:-1,ES | Mtv Espana SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31982
+#EXTINF:-1,ES | Mezzo Live FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31983
+#EXTINF:-1,ES | Mezzo Live SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31984
+#EXTINF:-1,ES | Movistar Liga de Campeones FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/29829
+#EXTINF:-1,ES | Movistar Formula 1 4K UHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/29830
+#EXTINF:-1,ES | Rtl 4K UHD ALEM
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/29831
+#EXTINF:-1,ES | Peppa Pig 24 H
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30003
+#EXTINF:-1,ES | Patrulla Canina 24 H
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30004
+#EXTINF:-1,ES | Fashion 4K UHD USA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/29832
+#EXTINF:-1,ES | One By 4K RUS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/29833
+#EXTINF:-1,ES | Melodía FM
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31985
+#EXTINF:-1,ES | Onda Cero
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31986
+#EXTINF:-1,ES | Classica SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/31987
+#EXTINF:-1,ES | ##### TDT ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30473
+#EXTINF:-1,ES | LA 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2698
+#EXTINF:-1,ES | LA 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2699
+#EXTINF:-1,ES | Antena 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2700
+#EXTINF:-1,ES | Cuatro HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2701
+#EXTINF:-1,ES | Telecinco HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2702
+#EXTINF:-1,ES | La Sexta HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2703
+#EXTINF:-1,ES | Neox 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2705
+#EXTINF:-1,ES | Mega 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2706
+#EXTINF:-1,ES | Nova HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2707
+#EXTINF:-1,ES | Nova
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2749
+#EXTINF:-1,ES | Neox HD 
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2708
+#EXTINF:-1,ES | Neox
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2748
+#EXTINF:-1,ES | Mega HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2709
+#EXTINF:-1,ES | Mega
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2742
+#EXTINF:-1,ES | Atreseries HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2710
+#EXTINF:-1,ES | Gran Hermano Vip
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2711
+#EXTINF:-1,ES | FDF HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2712
+#EXTINF:-1,ES | Energy HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2713
+#EXTINF:-1,ES | Divinity HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2714
+#EXTINF:-1,ES | Boing HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2715
+#EXTINF:-1,ES | Real Madrid TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2717
+#EXTINF:-1,ES | Dmax TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2718
+#EXTINF:-1,ES | Dkiss TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2719
+#EXTINF:-1,ES | Atreseries TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2720
+#EXTINF:-1,ES | Boing TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2721
+#EXTINF:-1,ES | Ten TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2722
+#EXTINF:-1,ES | Bemad TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2723
+#EXTINF:-1,ES | Atreseries
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2724
+#EXTINF:-1,ES | Disney TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2725
+#EXTINF:-1,ES | Clan TVE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2726
+#EXTINF:-1,ES | Boing
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2727
+#EXTINF:-1,ES | Intereconomia
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2728
+#EXTINF:-1,ES | Bom TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2729
+#EXTINF:-1,ES | Paramount TDT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2730
+#EXTINF:-1,ES | Energy
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2750
+#EXTINF:-1,ES | BeMad tv HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2752
+#EXTINF:-1,ES | BeMad tv
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2753
+#EXTINF:-1,ES | Discovery Max Spain
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2751
+#EXTINF:-1,ES | Fdf
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2744
+#EXTINF:-1,ES | Energy
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2745
+#EXTINF:-1,ES | Divinity
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2746
+#EXTINF:-1,ES | MTMAD HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2758
+#EXTINF:-1,ES | #### AUTONOMICOS ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30474
+#EXTINF:-1,ES | 7RM
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2731
+#EXTINF:-1,ES | Extremadura TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2733
+#EXTINF:-1,ES | Esport 3
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2734
+#EXTINF:-1,ES | El correo TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2735
+#EXTINF:-1,ES | Galicia TV 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2736
+#EXTINF:-1,ES | Castilla La Mancha TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2737
+#EXTINF:-1,ES | TV Galicia
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2738
+#EXTINF:-1,ES | Etb 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2739
+#EXTINF:-1,ES | Etb 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2740
+#EXTINF:-1,ES | Tv3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2741
+#EXTINF:-1,ES | Canal Sur HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2754
+#EXTINF:-1,ES | canalsur 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2756
+#EXTINF:-1,ES | ES Onda Cadiz
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2757
+#EXTINF:-1,ES | Tv Canaria
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2759
+#EXTINF:-1,ES | Telemadrid HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2760
+#EXTINF:-1,ES | 13 TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2762
+#EXTINF:-1,ES | A Punt
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2764
+#EXTINF:-1,ES | Telemadrid
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2765
+#EXTINF:-1,ES | Aragon Tv
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2767
+#EXTINF:-1,ES | Andalucia TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2768
+#EXTINF:-1,ES | #### FUTBOL ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30475
+#EXTINF:-1,ES | M. LaLiga SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2772
+#EXTINF:-1,ES | M. LaLiga 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2774
+#EXTINF:-1,ES | M. LaLiga HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2775
+#EXTINF:-1,ES | M. LaLiga 4k
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/25912
+#EXTINF:-1,ES | M. LaLiga 4k B
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/25911
+#EXTINF:-1,ES | M. LaLiga 4k C
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/25908
+#EXTINF:-1,ES | Movistar la Liga 4K UHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30470
+#EXTINF:-1,ES | M. LaLiga HD Op.B
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2776
+#EXTINF:-1,ES | M. LaLiga 1 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2777
+#EXTINF:-1,ES | M. LaLiga 1 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2778
+#EXTINF:-1,ES | M. LaLiga 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2779
+#EXTINF:-1,ES | M. LaLiga 2 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2780
+#EXTINF:-1,ES | M. LaLiga 2 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2781
+#EXTINF:-1,ES | M. LaLiga 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2782
+#EXTINF:-1,ES | M. LaLiga 3 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2783
+#EXTINF:-1,ES | M. LaLiga 3 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2784
+#EXTINF:-1,ES | M. LaLiga 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2785
+#EXTINF:-1,ES | M. LaLiga 4 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2786
+#EXTINF:-1,ES | M. LaLiga 4 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2787
+#EXTINF:-1,ES | M. LaLiga 4 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2788
+#EXTINF:-1,ES | M. LaLiga 5 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2789
+#EXTINF:-1,ES | M. LaLiga 5 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2790
+#EXTINF:-1,ES | M. LaLiga 5 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2791
+#EXTINF:-1,ES | M. LaLiga 6 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2792
+#EXTINF:-1,ES | M. LaLiga 6 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2793
+#EXTINF:-1,ES | M. LaLiga 6 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2794
+#EXTINF:-1,ES | M. LaLiga 7 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2795
+#EXTINF:-1,ES | M. LaLiga 7 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2796
+#EXTINF:-1,ES | M. LaLiga 7 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2797
+#EXTINF:-1,ES | M. LaLiga 8 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2798
+#EXTINF:-1,ES | M. LaLiga 9 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2799
+#EXTINF:-1,ES | M. LaLiga 10 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2800
+#EXTINF:-1,ES | LALIGATV BAR SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2801
+#EXTINF:-1,ES | LA LIGA TV BAR
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2802
+#EXTINF:-1,ES | LA LIGA TV BAR HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2803
+#EXTINF:-1,ES |Laliga tv Bar M1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2804
+#EXTINF:-1,ES |Laliga tv Bar M2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2805
+#EXTINF:-1,ES |Laliga tv Bar M3
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2806
+#EXTINF:-1,ES |Laliga tv Bar M4
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2807
+#EXTINF:-1,ES | M+ L.Campeones HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2808
+#EXTINF:-1,ES | M+ L.Campeones HD Op.B
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2809
+#EXTINF:-1,ES |M+ L.Campeones HD Op.C
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2810
+#EXTINF:-1,ES | M.Liga de Campeones
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2811
+#EXTINF:-1,ES | M. Liga Campeones 4K UHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30469
+#EXTINF:-1,ES | M.Liga de Campeones sd
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2812
+#EXTINF:-1,ES | M.Liga de Campeones 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2813
+#EXTINF:-1,ES | M.Liga de Campeones 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2814
+#EXTINF:-1,ES | liga campeones 1 sd
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2815
+#EXTINF:-1,ES | M.Liga de Campeones 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2816
+#EXTINF:-1,ES | M.Liga de Campeones 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2817
+#EXTINF:-1,ES | M.Liga de Campeones 2 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2818
+#EXTINF:-1,ES | M.Liga de Campeones 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2819
+#EXTINF:-1,ES |M.Liga de Campeones 3
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2820
+#EXTINF:-1,ES |M.Liga de Campeones 3 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2821
+#EXTINF:-1,ES |M.Liga de Campeones 4 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2822
+#EXTINF:-1,ES | M.Liga de Campeones 4
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2823
+#EXTINF:-1,ES | M.Liga de Campeones 5
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2824
+#EXTINF:-1,ES | M.Liga de Campeones 6
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2825
+#EXTINF:-1,ES | M.Liga de Campeones 7
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2826
+#EXTINF:-1,ES | M.Liga de Campeones 8
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2827
+#EXTINF:-1,ES | #Vamos HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2828
+#EXTINF:-1,ES |#Vamos Bar HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2829
+#EXTINF:-1,ES | #Vamos SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2830
+#EXTINF:-1,ES |#Vamos Bar 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2831
+#EXTINF:-1,ES |#Vamos Bar 1 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2832
+#EXTINF:-1,ES |#Vamos Bar 2 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2833
+#EXTINF:-1,ES | Real Madrid TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2834
+#EXTINF:-1,ES | BARcA TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2835
+#EXTINF:-1,ES | BARcA TV 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2836
+#EXTINF:-1,ES | BARÇA TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2837
+#EXTINF:-1,ES | Futbol Replay
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2838
+#EXTINF:-1,ES | Sevilla Fc
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2839
+#EXTINF:-1,ES | Betis TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2840
+#EXTINF:-1,ES | GoL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2841
+#EXTINF:-1,ES | Gol TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2743
+#EXTINF:-1,ES | Teledeporte HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2716
+#EXTINF:-1,ES | #### DEPORTES ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30476
+#EXTINF:-1,ES | F1 4k TEST
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/25910
+#EXTINF:-1,ES | F1 4k TEST B
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/25909
+#EXTINF:-1,ES | Movistar Formula 1 4K UHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30471
+#EXTINF:-1,ES | Movistar F1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2842
+#EXTINF:-1,ES | Movistar F1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2843
+#EXTINF:-1,ES | Movistar F1 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2844
+#EXTINF:-1,ES | Redbull HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/27436
+#EXTINF:-1,ES | Nba TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/27439
+#EXTINF:-1,ES | NBA Classic TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/35074
+#EXTINF:-1,ES | World Padel Tour
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/35071
+#EXTINF:-1,ES | Eurosport 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2850
+#EXTINF:-1,ES | Eurosport 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2851
+#EXTINF:-1,ES | Eurosport 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2852
+#EXTINF:-1,ES | Eurosport2 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2853
+#EXTINF:-1,ES | Teledeporte
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2854
+#EXTINF:-1,ES | Movistar Golf HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2855
+#EXTINF:-1,ES | Movistar Golf
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2856
+#EXTINF:-1,ES | #Vamos
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2857
+#EXTINF:-1,ES | Movistar Deportes HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2858
+#EXTINF:-1,ES | Movistar Deportes
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2859
+#EXTINF:-1,ES | Movistar Deportes 5 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2861
+#EXTINF:-1,ES | Multideporte 4 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2862
+#EXTINF:-1,ES | Multideporte 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2863
+#EXTINF:-1,ES | Multideporte 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2864
+#EXTINF:-1,ES | Multideporte 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2865
+#EXTINF:-1,ES | Multideporte Pantalla
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2866
+#EXTINF:-1,ES | MULTIDEPORTE 7
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2867
+#EXTINF:-1,ES | MULTIDEPORTE 6
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2868
+#EXTINF:-1,ES | Multideporte 4
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2869
+#EXTINF:-1,ES | Multideporte 3
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2870
+#EXTINF:-1,ES | Multideporte 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2871
+#EXTINF:-1,ES | Multideporte 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2872
+#EXTINF:-1,ES | El Garaje Tv
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2874
+#EXTINF:-1,ES | #### CINE ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30477
+#EXTINF:-1,ES | ExiliumTV Peliculas Las 24 H
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/35213
+#EXTINF:-1,ES | Movistar Estrenos HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2875
+#EXTINF:-1,ES | Movistar Estrenos
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2876
+#EXTINF:-1,ES | Movistar Estrenos SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2878
+#EXTINF:-1,ES | CineDoc&Roll HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2879
+#EXTINF:-1,ES | CineDoc&Roll
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2880
+#EXTINF:-1,ES | Movistar Drama HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2881
+#EXTINF:-1,ES | Movistar Drama
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2882
+#EXTINF:-1,ES | Movistar Comedia HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2883
+#EXTINF:-1,ES | Movistar Comedia
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2884
+#EXTINF:-1,ES | Movistar Accion HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2885
+#EXTINF:-1,ES | Movistar Accion
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2886
+#EXTINF:-1,ES | Movistar Oscars
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/34822
+#EXTINF:-1,ES | Movistar Cine ñ
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2887
+#EXTINF:-1,ES | Movistar Cine ñ HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2888
+#EXTINF:-1,ES | cine español SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2889
+#EXTINF:-1,ES |Dark HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2890
+#EXTINF:-1,ES | DARK
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2891
+#EXTINF:-1,ES | Hollywood HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2892
+#EXTINF:-1,ES | Hollywood
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2893
+#EXTINF:-1,ES | TCM HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2894
+#EXTINF:-1,ES | TCM
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2895
+#EXTINF:-1,ES | Sundance
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2896
+#EXTINF:-1,ES | #### SERIES ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30478
+#EXTINF:-1,ES | ExiliumTV Series Maratones
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/35212
+#EXTINF:-1,ES | Movistar Seriesmania HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2897
+#EXTINF:-1,ES | Movistar Seriesmania
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2898
+#EXTINF:-1,ES | Movistar Series HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2899
+#EXTINF:-1,ES | Movistar Series
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2900
+#EXTINF:-1,ES | Fox Life HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2901
+#EXTINF:-1,ES | Fox Life
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2902
+#EXTINF:-1,ES | Fox HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2903
+#EXTINF:-1,ES | Fox
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2904
+#EXTINF:-1,ES | Calle 13 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2905
+#EXTINF:-1,ES | Calle 13
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2906
+#EXTINF:-1,ES | Comedy Central HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2907
+#EXTINF:-1,ES | Comedy Central
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2908
+#EXTINF:-1,ES | TNT HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2909
+#EXTINF:-1,ES | TNT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2910
+#EXTINF:-1,ES | Tnt SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2763
+#EXTINF:-1,ES | Syfy HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2911
+#EXTINF:-1,ES | Syfy
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2912
+#EXTINF:-1,ES | COMEDY CENTRAL SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2913
+#EXTINF:-1,ES | AXN White HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2914
+#EXTINF:-1,ES | AXN White
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2915
+#EXTINF:-1,ES | AXN HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2916
+#EXTINF:-1,ES | AXN
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2917
+#EXTINF:-1,ES | AMC HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2918
+#EXTINF:-1,ES | AMC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2919
+#EXTINF:-1,ES | XTRM
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2920
+#EXTINF:-1,ES | Star TVE HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30472
+#EXTINF:-1,ES | #0 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2921
+#EXTINF:-1,ES | #0
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2922
+#EXTINF:-1,ES | #### DOCUS Y ESTILO VIDA ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30479
+#EXTINF:-1,ES | Canal Historia
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2923
+#EXTINF:-1,ES | VIAJAR
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2924
+#EXTINF:-1,ES | BLAZE 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2925
+#EXTINF:-1,ES | Blaze SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2926
+#EXTINF:-1,ES | COCINA SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2928
+#EXTINF:-1,ES | Cocina 720
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2927
+#EXTINF:-1,ES | Viajar HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2929
+#EXTINF:-1,ES | Viajar SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2930
+#EXTINF:-1,ES | Toros Tv HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2931
+#EXTINF:-1,ES | Toros Tv
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2932
+#EXTINF:-1,ES | Odisea HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2933
+#EXTINF:-1,ES | Odisea
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2934
+#EXTINF:-1,ES | National Geographic Wild HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2935
+#EXTINF:-1,ES | National Geographic Wild
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2936
+#EXTINF:-1,ES | National Geographic HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2937
+#EXTINF:-1,ES | National Geographic
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2938
+#EXTINF:-1,ES | Caza Y Pesca HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2939
+#EXTINF:-1,ES | Caza Y Pesca
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2940
+#EXTINF:-1,ES | Cazavision
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2941
+#EXTINF:-1,ES | Iberalia SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2942
+#EXTINF:-1,ES | Discovery Channel
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2943
+#EXTINF:-1,ES | De Casa FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/29827
+#EXTINF:-1,ES | Decasa
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2944
+#EXTINF:-1,ES | Crimen & Investigacion
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2945
+#EXTINF:-1,ES | Cosmo Tv HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2946
+#EXTINF:-1,ES | Cosmo Tv
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2947
+#EXTINF:-1,ES | Crimen e Investigacion SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2948
+#EXTINF:-1,ES | Historia SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2949
+#EXTINF:-1,ES | Odisea SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2950
+#EXTINF:-1,ES | Discovery SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2951
+#EXTINF:-1,ES | #### MUSICALES ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30480
+#EXTINF:-1,ES | ExiliumTV Musica 24 Horas
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/36045
+#EXTINF:-1,ES | U-Beat TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2953
+#EXTINF:-1,ES | Sol Musica HD TEST
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2954
+#EXTINF:-1,ES | Top Latino
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/27437
+#EXTINF:-1,ES | Los 40 TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/27438
+#EXTINF:-1,ES | #### INFANTILES ####
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/30481
+#EXTINF:-1,ES | Los Simpsons 24 Horas
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/35072
+#EXTINF:-1,ES | Pocoyo 24 Horas
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/35073
+#EXTINF:-1,ES | Dragon Ball 24 Horas
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/35075
+#EXTINF:-1,ES | Movistar Disney
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2957
+#EXTINF:-1,ES | Movistar Disney
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2969
+#EXTINF:-1,ES | Movistar Disney SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2958
+#EXTINF:-1,ES | Movistar Disneey
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2959
+#EXTINF:-1,ES | Nickelodeon SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2960
+#EXTINF:-1,ES | Nickelodeon HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2961
+#EXTINF:-1,ES | Nick Jr
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2962
+#EXTINF:-1,ES | Disney XD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2963
+#EXTINF:-1,ES | Disney Junior
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2964
+#EXTINF:-1,ES | Disney Channel HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2965
+#EXTINF:-1,ES | Disney Channel
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2966
+#EXTINF:-1,ES | Canal Panda
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2967
+#EXTINF:-1,ES | Clan HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2968
+#EXTINF:-1,ES | Clan HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2747
+#EXTINF:-1,ES | Baby TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://espana-premium.ddns.net:8000/SEBAS/POSO/2970
