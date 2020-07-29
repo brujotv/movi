@@ -353,6 +353,29 @@
 </item>
 
 <item>
+<title> [COLOR blue]TNT[/COLOR]</title>
+<thumbnail>https://www.axartel.es/assets/img/sliders/tv-canales/tnt.jpg</thumbnail>
+<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>geturl</name>
+<expres>source:"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[pagina]</page>
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>pagina</name>
+<expres>iframe.*?src="(.*?)"</expres>
+<page>https://adictosalatele.com/TV/espana/tnt/</page>
+</regex>
+</item>
+
+<item>
 <title> [COLOR blue]TCM[/COLOR]</title>
 <thumbnail>https://canaltcm.com/wp-content/uploads/2019/04/tcm-icon.png</thumbnail>
 <link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
@@ -490,7 +513,7 @@
 
 <item>
 <title> [COLOR blue]calle13[/COLOR]</title>
-<thumbnail></thumbnail>
+<thumbnail>https://static.epg.best/es/Calle13.es.png</thumbnail>
 <link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
 <regex>
 <name>geturl</name>
