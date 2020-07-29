@@ -443,7 +443,7 @@
 
 <item>
 <title> [COLOR blue]#Vamos[/COLOR]</title>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/vamos.png</thumbnail>
 <link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
 <regex>
 <name>geturl</name>
@@ -466,7 +466,7 @@
 
 <item>
 <title> [COLOR blue]movistar laliga[/COLOR]</title>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/laliga.png</thumbnail>
 <link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
 <regex>
 <name>geturl</name>
@@ -489,7 +489,7 @@
 
 <item>
 <title> [COLOR blue]M.Formula 1[/COLOR]</title>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/formula1.png</thumbnail>
 <link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
 <regex>
 <name>geturl</name>
