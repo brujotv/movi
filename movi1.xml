@@ -483,6 +483,52 @@
 </item>
 
 <item>
+<title> [COLOR blue]calle13[/COLOR]</title>
+<thumbnail>https://static.epg.best/es/Calle13.es.png</thumbnail>
+<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>geturl</name>
+<expres>source:"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[pagina]</page>
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>pagina</name>
+<expres>iframe.*?src="(.*?)"</expres>
+<page>https://adictosalatele.com/TV/espana/calle13/</page>
+</regex>
+</item>
+
+<item>
+<title> [COLOR blue]DARK[/COLOR]</title>
+<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/dark.png</thumbnail>
+<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>geturl</name>
+<expres>source:"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[pagina]</page>
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>pagina</name>
+<expres>iframe.*?src="(.*?)"</expres>
+<page>https://adictosalatele.com/TV/espana/dark/</page>
+</regex>
+</item>
+
+<item>
 <title> [COLOR blue]Caza y Pesca[/COLOR]</title>
 <thumbnail>https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/160x130/caza-y-pesca.jpg</thumbnail>
 <link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
@@ -525,6 +571,52 @@
 <name>pagina</name>
 <expres>iframe.*?src="(.*?)"</expres>
 <page>https://adictosalatele.com/TV/latinos/cazavision/</page>
+</regex>
+</item>
+
+<item>
+<title> [COLOR blue]CI CRIMEN Y INVESTIGACION[/COLOR]</title>
+<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/ci.png</thumbnail>
+<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>geturl</name>
+<expres>source:"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[pagina]</page>
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>pagina</name>
+<expres>iframe.*?src="(.*?)"</expres>
+<page>https://adictosalatele.com/TV/espana/ci/</page>
+</regex>
+</item>
+
+<item>
+<title> [COLOR blue]BLAZE[/COLOR]</title>
+<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/blaze.png</thumbnail>
+<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>geturl</name>
+<expres>source:"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[pagina]</page>
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>pagina</name>
+<expres>iframe.*?src="(.*?)"</expres>
+<page>https://adictosalatele.com/TV/espana/blaze/</page>
 </regex>
 </item>
 
@@ -576,6 +668,52 @@
 </item>
 
 <item>
+<title> [COLOR blue]NATIONAL GEOGRAPHIC[/COLOR]</title>
+<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/nationalgeographic.png</thumbnail>
+<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>geturl</name>
+<expres>source:"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[pagina]</page>
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>pagina</name>
+<expres>iframe.*?src="(.*?)"</expres>
+<page>https://adictosalatele.com/TV/espana/national-geographic/</page>
+</regex>
+</item>
+
+<item>
+<title> [COLOR blue]NAT GEO WILL[/COLOR]</title>
+<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/natgeo.png</thumbnail>
+<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
+<regex>
+<name>geturl</name>
+<expres>source:"(.*?)"</expres>
+<page>$doregex[getunpacked]</page>
+</regex>
+<regex>
+<name>getunpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
+<page>$doregex[pagina]</page>
+<referer>https://adictosalatele.com</referer>
+<connection>keep-alive</connection>
+</regex>
+<regex>
+<name>pagina</name>
+<expres>iframe.*?src="(.*?)"</expres>
+<page>https://adictosalatele.com/TV/espana/nat-geo/</page>
+</regex>
+</item>
+
+<item>
 <title> [COLOR blue]Discovery Channel[/COLOR]</title>
 <thumbnail>https://cf-media.press.discovery.com/ugc/logos/2009/08/22/DSC_pos_bw.png</thumbnail>
 <link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
@@ -595,29 +733,6 @@
 <name>pagina</name>
 <expres>iframe.*?src="(.*?)"</expres>
 <page>https://adictosalatele.com/TV/espana/discovery-channel/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]calle13[/COLOR]</title>
-<thumbnail>https://static.epg.best/es/Calle13.es.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/calle13/</page>
 </regex>
 </item>
 
@@ -690,7 +805,6 @@ item>
 </regex>
 </item>
 
-
 <item>
 <title> [COLOR blue]M.Formula 1[/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/formula1.png</thumbnail>
@@ -713,4 +827,13 @@ item>
 <page>https://adictosalatele.com/TV/deportes/formula1/</page>
 </regex>
 </item>
+
+
+
+
+
+
+
+
+
 
