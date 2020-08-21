@@ -746,7 +746,7 @@ item>
 <regex>
 <name>pagina</name>
 <expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/deportes/movistar-ligacampeones/live.php</page>
+<page>https://telerium.tv/embed/57306.html</page>
 </regex>
 </item>
 
