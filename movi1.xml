@@ -1,806 +1,683 @@
+#EXTM3U
 
-
-<item>
-<title> [COLOR blue]La 1  [/COLOR]</title>        
-<link>http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1950px-Logo_TVE-1.svg.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title> [COLOR blue]La 2  [/COLOR]</title>        
-<link>https://hlsliveamdgl0-lh.akamaihd.net/i/hlsdvrlive_1@60531/master.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/1900px-Logo_TVE-2.svg.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title> [COLOR blue]Canal Sur HD[/COLOR]</title>        
-<link>https://cdnlive.shooowit.net/rtvalive/channelDVR.smil/master.m3u8</link>
-<thumbnail>https://visiona.tv/wp-content/uploads/2019/06/canal-sur-logo-png-transparent.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title> [COLOR blue]Antena 3  [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/a/aa/Antena3_Atresmedia.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/antena3/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]Cuatro [/COLOR]</title>        
-<link>https://linear02-i.akamaihd.net/hls/live/837811/cuatro/01.m3u8</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/5/51/Cuatro_2012.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title> [COLOR blue]Telecinco [/COLOR]</title>        
-<link>https://linear01-i.akamaihd.net/hls/live/837810/telecinco/01.m3u8</link>
-<thumbnail>https://album.mediaset.es/file/10002/2017/11/17/telecinco_circular_500_-1_bda1.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title> [COLOR blue]La sexta [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/La_Sexta_%28A3M%29.svg/320px-La_Sexta_%28A3M%29.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/lasexta/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]#0 de movistar+ [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/6/67/Movistar_0.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/canal-0-plus/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M Estrenos [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Movistar_Estrenos.svg/1598px-Movistar_Estrenos.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/movistar-estrenos/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M Accion [/COLOR]</title>
-<thumbnail>https://download.logo.wine/logo/Movistar_Acci%C3%B3n/Movistar_Acci%C3%B3n-Logo.wine.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/movistar-accion</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M Drama [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Movistar_Drama.svg/1200px-Movistar_Drama.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/movistar-drama</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M Comedia  [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Movistar_Comedia.svg/1599px-Movistar_Comedia.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/movistar-comedia</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M cine espanol[/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Movistar_Cine_Español.svg/1600px-Movistar_Cine_Español.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/dcineespanol/</page>
-</regex>
-</item>
-
-
-<item>
-<title> [COLOR blue]M Series [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Movistar_Series.svg/1599px-Movistar_Series.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/movistar-series/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M Seriesmania [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Movistar_Series.svg/1599px-Movistar_Series.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/movistar-seriesmania/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]SYFY[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/syfy.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/syfy/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]Canal Hollywood[/COLOR]</title>
-<thumbnail>https://www.axartel.es/assets/img/sliders/tv-canales/canal-hollywood.jpg</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/hollywood/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]TNT[/COLOR]</title>
-<thumbnail>https://www.axartel.es/assets/img/sliders/tv-canales/tnt.jpg</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/tnt/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]TCM[/COLOR]</title>
-<thumbnail>https://canaltcm.com/wp-content/uploads/2019/04/tcm-icon.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/tcm/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]FOX [/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/foxhd.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/fox/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]AXN [/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/1024px-AXN_logo_%282015%29.svg.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/axn/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]AXN WHITE[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/axn_white.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/axnwhite/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]calle13[/COLOR]</title>
-<thumbnail>https://static.epg.best/es/Calle13.es.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/calle13/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]DARK[/COLOR]</title>
-<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/dark.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/dark/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]Caza y Pesca[/COLOR]</title>
-<thumbnail>https://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/160x130/caza-y-pesca.jpg</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/caza-pesca/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]Caza Vision[/COLOR]</title>
-<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/cazavision.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/latinos/cazavision/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]CI CRIMEN Y INVESTIGACION[/COLOR]</title>
-<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/ci.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/ci/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]BLAZE[/COLOR]</title>
-<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/blaze.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/blaze/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]Discovery Turbo[/COLOR]</title>
-<thumbnail>https://lh3.googleusercontent.com/P1Gb0uAPTDIc0ggjDYoOY6aD5YlcIDWfovbYon4nRtsIHjEvtz4ov22BqWOZ25YLHAk</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/latinos/discoveryturbo/</page>
-</regex>
-</item>
-
-
-<item>
-<title> [COLOR blue]Historia[/COLOR]</title>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/a/a2/Canal_de_Historia.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/history/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]NATIONAL GEOGRAPHIC[/COLOR]</title>
-<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/nationalgeographic.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/national-geographic/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]NAT GEO WILL[/COLOR]</title>
-<thumbnail>https://adictosalatele.com/wp-content/uploads/2020/03/natgeo.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/nat-geo/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]Discovery Channel[/COLOR]</title>
-<thumbnail>https://cf-media.press.discovery.com/ugc/logos/2009/08/22/DSC_pos_bw.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/espana/discovery-channel/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]#Vamos[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/vamos.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/deportes/vamos/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]Movistar Laliga[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/laliga.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/deportes/movistar-laliga/live.php</page>
-</regex>
-</item>
-
-item>
-<title> [COLOR blue]Movistar Liga Campeones[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/campeones.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://telerium.tv/embed/57306.html</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M.Moto gp[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/motogp.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/deportes/motogp/</page>
-</regex>
-</item>
-
-<item>
-<title> [COLOR blue]M.Formula 1[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/pakito71/Logos/master/formula1.png</thumbnail>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (Android 7.0; Tablet; rv:58.0.2) Gecko/58.0.2 Firefox/58.0.2</link>
-<regex>
-<name>geturl</name>
-<expres>source:"(.*?)"</expres>
-<page>$doregex[getunpacked]</page>
-</regex>
-<regex>
-<name>getunpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres>
-<page>$doregex[pagina]</page>
-<referer>https://adictosalatele.com</referer>
-<connection>keep-alive</connection>
-</regex>
-<regex>
-<name>pagina</name>
-<expres>iframe.*?src="(.*?)"</expres>
-<page>https://adictosalatele.com/TV/deportes/formula1/</page>
-</regex>
-</item>
-
-
-
-
-
-
-
-
+#EXTINF:-1 tvg-id="" tvg-name="LA 1 HD" tvg-logo="" group-title="SPANISH",LA 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=355&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA 1 HEVC" tvg-logo="" group-title="SPANISH",LA 1 HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26087&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA 1 FULL HD" tvg-logo="" group-title="SPANISH",LA 1 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3797&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA 2 HD" tvg-logo="" group-title="SPANISH",LA 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=421&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA 2 FULL HD" tvg-logo="" group-title="SPANISH",LA 2 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3846&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="ANTENA 3 HD" tvg-logo="" group-title="SPANISH",ANTENA 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=348&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="ANTENA 3 FULL HD" tvg-logo="" group-title="SPANISH",ANTENA 3 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3790&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CUATRO HD" tvg-logo="" group-title="SPANISH",CUATRO HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=351&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CUATRO FULL HD" tvg-logo="" group-title="SPANISH",CUATRO FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3793&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TELECINCO HD" tvg-logo="" group-title="SPANISH",TELECINCO HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=374&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TELECINCO FULL HD" tvg-logo="" group-title="SPANISH",TELECINCO FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3814&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA SEXTA HD" tvg-logo="" group-title="SPANISH",LA SEXTA HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=356&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA SEXTA FULL HD" tvg-logo="" group-title="SPANISH",LA SEXTA FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3798&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24 HORAS" tvg-logo="" group-title="SPANISH",24 HORAS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=380&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Disney+" tvg-logo="" group-title="SPANISH",Disney+
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26214&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Disney+ FULL HD" tvg-logo="" group-title="SPANISH",Disney+ FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26215&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#0 4K" tvg-logo="" group-title="SPANISH",#0 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26172&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA 1 4K" tvg-logo="" group-title="SPANISH",LA 1 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26150&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA 2 4K" tvg-logo="" group-title="SPANISH",LA 2 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26151&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="ANTENA 3 4K" tvg-logo="" group-title="SPANISH",ANTENA 3 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26152&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CUATRO 4K" tvg-logo="" group-title="SPANISH",CUATRO 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26153&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TELECINCO 4K" tvg-logo="" group-title="SPANISH",TELECINCO 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26154&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" VIAJAR 4K" tvg-logo="" group-title="SPANISH", VIAJAR 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26275&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TOROS 4K" tvg-logo="" group-title="SPANISH",TOROS 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26276&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" EUROSPORT1 4K" tvg-logo="" group-title="SPANISH", EUROSPORT1 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26281&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" Disney+ 4K" tvg-logo="" group-title="SPANISH", Disney+ 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26272&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" #VAMOS 4K" tvg-logo="" group-title="SPANISH", #VAMOS 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26267&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LA SEXTA 4K" tvg-logo="" group-title="SPANISH",LA SEXTA 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26155&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. SERIES 4K" tvg-logo="" group-title="SPANISH",M. SERIES 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26160&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DRAMA 4K" tvg-logo="" group-title="SPANISH",M. DRAMA 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26159&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.COMEDIA 4K" tvg-logo="" group-title="SPANISH",M.COMEDIA 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26158&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. ACCIÓN 4K" tvg-logo="" group-title="SPANISH",M. ACCIÓN 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26157&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.ESTRENOS 4K" tvg-logo="" group-title="SPANISH",M.ESTRENOS 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26156&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" LALIGATV BAR 4K" tvg-logo="" group-title="SPANISH", LALIGATV BAR 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26269&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" #VAMOS BAR 4K" tvg-logo="" group-title="SPANISH", #VAMOS BAR 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26270&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" M.FORMULA1 4K " tvg-logo="" group-title="SPANISH", M.FORMULA1 4K 
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26271&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" NAT GEO 4K " tvg-logo="" group-title="SPANISH", NAT GEO 4K 
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26322&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" M. GOLF 4K " tvg-logo="" group-title="SPANISH", M. GOLF 4K 
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26323&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" NG WILD 4K" tvg-logo="" group-title="SPANISH", NG WILD 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26324&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Masha y el Oso" tvg-logo="" group-title="SPANISH",24/7 Masha y el Oso
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26309&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Bombero Sam" tvg-logo="" group-title="SPANISH",24/7 El Bombero Sam
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26310&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 La Patrulla Canina 1" tvg-logo="" group-title="SPANISH",24/7 La Patrulla Canina 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26290&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 La Patrulla Canina 2" tvg-logo="" group-title="SPANISH",24/7 La Patrulla Canina 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26291&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Peppa Pig 1" tvg-logo="" group-title="SPANISH",24/7 Peppa Pig 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26292&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Peppa Pig 2" tvg-logo="" group-title="SPANISH",24/7 Peppa Pig 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26293&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Blood & Water" tvg-logo="" group-title="SPANISH",24/7 Blood & Water
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26249&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Carta al rey" tvg-logo="" group-title="SPANISH",24/7 Carta al rey
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26250&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 DARK" tvg-logo="" group-title="SPANISH",24/7 DARK
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26251&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Desaparecidos" tvg-logo="" group-title="SPANISH",24/7 Desaparecidos
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26252&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 El Ultimo baile" tvg-logo="" group-title="SPANISH",24/7 El Ultimo baile
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26253&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 The First" tvg-logo="" group-title="SPANISH",24/7 The First
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26286&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 The Five" tvg-logo="" group-title="SPANISH",24/7 The Five
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26287&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 FBI" tvg-logo="" group-title="SPANISH",24/7 FBI
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26277&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Rogue" tvg-logo="" group-title="SPANISH",24/7 Rogue
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26278&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Station 19" tvg-logo="" group-title="SPANISH",24/7 Station 19
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26279&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Blindspot" tvg-logo="" group-title="SPANISH",24/7 Blindspot
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26274&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Supergirl" tvg-logo="" group-title="SPANISH",24/7 Supergirl
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26280&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Fernando" tvg-logo="" group-title="SPANISH",24/7 Fernando
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26254&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Jugando con fuego" tvg-logo="" group-title="SPANISH",24/7 Jugando con fuego
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26256&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Lenox Hill" tvg-logo="" group-title="SPANISH",24/7 Lenox Hill
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26257&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Cobra Kai" tvg-logo="" group-title="SPANISH",24/7 Cobra Kai
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26262&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Jack Ryan" tvg-logo="" group-title="SPANISH",24/7 Jack Ryan
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26263&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 MacGyver " tvg-logo="" group-title="SPANISH",24/7 MacGyver 
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26264&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Raised By Wolves" tvg-logo="" group-title="SPANISH",24/7 Raised By Wolves
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26265&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 XIII The Series" tvg-logo="" group-title="SPANISH",24/7 XIII The Series
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26266&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Locke and  Key" tvg-logo="" group-title="SPANISH",24/7 Locke and  Key
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26258&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Maldita" tvg-logo="" group-title="SPANISH",24/7 Maldita
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26259&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Seal Team" tvg-logo="" group-title="SPANISH",24/7 Seal Team
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26260&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Snowpiercer  Rompenieves" tvg-logo="" group-title="SPANISH",24/7 Snowpiercer  Rompenieves
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26261&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 ICE" tvg-logo="" group-title="SPANISH",24/7 ICE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26255&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Chicago Fire" tvg-logo="" group-title="SPANISH",24/7 Chicago Fire
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26230&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Pandemia: como prevenir un brote" tvg-logo="" group-title="SPANISH",24/7 Pandemia: como prevenir un brote
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26222&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Hunters" tvg-logo="" group-title="SPANISH",24/7 Hunters
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26196&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Navy Investigacion Criminal" tvg-logo="" group-title="SPANISH",24/7 Navy Investigacion Criminal
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26197&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 NCIS Los Angeles" tvg-logo="" group-title="SPANISH",24/7 NCIS Los Angeles
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26198&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 SWAT" tvg-logo="" group-title="SPANISH",24/7 SWAT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26199&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 The Mandalorian" tvg-logo="" group-title="SPANISH",24/7 The Mandalorian
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26166&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Messiah" tvg-logo="" group-title="SPANISH",24/7 Messiah
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26161&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="24/7 The Witcher" tvg-logo="" group-title="SPANISH",24/7 The Witcher
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26162&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.ESTRENOS HD" tvg-logo="" group-title="SPANISH",M.ESTRENOS HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=364&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.ESTRENOS FULL HD" tvg-logo="" group-title="SPANISH",M.ESTRENOS FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3805&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. ACCION HD" tvg-logo="" group-title="SPANISH",M. ACCION HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=358&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. ACCIN FULL HD" tvg-logo="" group-title="SPANISH",M. ACCIN FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3799&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.COMEDIA HD" tvg-logo="" group-title="SPANISH",M.COMEDIA HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=363&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.COMEDIA FULL HD" tvg-logo="" group-title="SPANISH",M.COMEDIA FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3804&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DRAMA HD" tvg-logo="" group-title="SPANISH",M. DRAMA HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=360&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DRAMA FULL HD" tvg-logo="" group-title="SPANISH",M. DRAMA FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3801&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. Cine Espaol" tvg-logo="" group-title="SPANISH",M. Cine Espaol
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=426&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. Cine Espaol FULL HD" tvg-logo="" group-title="SPANISH",M. Cine Espaol FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3847&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.CineDoc&Roll HD" tvg-logo="" group-title="SPANISH",M.CineDoc&Roll HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=437&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.CineDoc&Roll FULL HD" tvg-logo="" group-title="SPANISH",M.CineDoc&Roll FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3850&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. SERIES HD" tvg-logo="" group-title="SPANISH",M. SERIES HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=362&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. SERIES FULL HD" tvg-logo="" group-title="SPANISH",M. SERIES FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3803&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="HOLLYWOOD HD" tvg-logo="" group-title="SPANISH",HOLLYWOOD HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=354&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="HOLLYWOOD FULL HD" tvg-logo="" group-title="SPANISH",HOLLYWOOD FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3796&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Paramount Channel" tvg-logo="" group-title="SPANISH",Paramount Channel
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=454&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Paramount FULL HD" tvg-logo="" group-title="SPANISH",Paramount FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3855&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TCM HD" tvg-logo="" group-title="SPANISH",TCM HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=373&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TCM FULL HD" tvg-logo="" group-title="SPANISH",TCM FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3813&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TNT HD" tvg-logo="" group-title="SPANISH",TNT HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=375&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TNT FULL HD" tvg-logo="" group-title="SPANISH",TNT FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3815&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="SUNDANCE TV" tvg-logo="" group-title="SPANISH",SUNDANCE TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=456&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Sundance TV FULL HD" tvg-logo="" group-title="SPANISH",Sundance TV FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3856&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#0 HD" tvg-logo="" group-title="SPANISH",#0 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=378&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#0 FULL HD" tvg-logo="" group-title="SPANISH",#0 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3818&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.Seriesmania HD" tvg-logo="" group-title="SPANISH",M.Seriesmania HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=368&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.Seriesmania FULL HD" tvg-logo="" group-title="SPANISH",M.Seriesmania FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3809&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="FOX HD" tvg-logo="" group-title="SPANISH",FOX HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=353&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="FOX FULL HD" tvg-logo="" group-title="SPANISH",FOX FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3795&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="FOX LIFE HD" tvg-logo="" group-title="SPANISH",FOX LIFE HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=416&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Fox Life FULL HD" tvg-logo="" group-title="SPANISH",Fox Life FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3842&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="AMC HD" tvg-logo="" group-title="SPANISH",AMC HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=347&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="AMC FULL HD" tvg-logo="" group-title="SPANISH",AMC FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3789&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="AXN HD" tvg-logo="" group-title="SPANISH",AXN HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=349&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="AXN FULL HD" tvg-logo="" group-title="SPANISH",AXN FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3791&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="AXN WHITE HD" tvg-logo="" group-title="SPANISH",AXN WHITE HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=382&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="AXN WHITE FULL HD" tvg-logo="" group-title="SPANISH",AXN WHITE FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3821&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="SYFY HD" tvg-logo="" group-title="SPANISH",SYFY HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=372&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="SYFY FULL HD" tvg-logo="" group-title="SPANISH",SYFY FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3812&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CALLE 13 HD" tvg-logo="" group-title="SPANISH",CALLE 13 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=350&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CALLE 13 FULL HD" tvg-logo="" group-title="SPANISH",CALLE 13 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3792&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="COMEDYCENTRAL HD" tvg-logo="" group-title="SPANISH",COMEDYCENTRAL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=405&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Comedy Central FULL HD" tvg-logo="" group-title="SPANISH",Comedy Central FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3833&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="COSMO HD" tvg-logo="" group-title="SPANISH",COSMO HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=406&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="COSMO FULL HD" tvg-logo="" group-title="SPANISH",COSMO FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3834&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TOROS HD" tvg-logo="" group-title="SPANISH",TOROS HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=376&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TOROS FULL HD" tvg-logo="" group-title="SPANISH",TOROS FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3816&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga HD" tvg-logo="" group-title="SPANISH",M. LaLiga HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26046&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga HD+" tvg-logo="" group-title="SPANISH",M. LaLiga HD+
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26248&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LaLiga HD" tvg-logo="" group-title="SPANISH",LaLiga HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26246&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LALIGATV BAR HD" tvg-logo="" group-title="SPANISH",LALIGATV BAR HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=357&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Espana" tvg-logo="" group-title="SPANISH",beIN SPORTS Espana
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26321&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga FHD" tvg-logo="" group-title="SPANISH",M. LaLiga FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26042&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M  LaLiga" tvg-logo="" group-title="SPANISH",M  LaLiga
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26247&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga" tvg-logo="" group-title="SPANISH",M. LaLiga
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=435&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Laliga/ beIN Sport" tvg-logo="" group-title="SPANISH",Bein Laliga/ beIN Sport
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=386&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 2K" tvg-logo="" group-title="SPANISH",M. LaLiga 2K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26141&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 4K" tvg-logo="" group-title="SPANISH",M. LaLiga 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26142&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga FULL HD" tvg-logo="" group-title="SPANISH",M. LaLiga FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3849&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 1 HD" tvg-logo="" group-title="SPANISH",M. LaLiga 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26047&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 2 HD" tvg-logo="" group-title="SPANISH",M. LaLiga 2 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26048&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 1 FHD" tvg-logo="" group-title="SPANISH",M. LaLiga 1 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26043&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 2 FHD" tvg-logo="" group-title="SPANISH",M. LaLiga 2 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26045&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 3 FHD" tvg-logo="" group-title="SPANISH",M. LaLiga 3 FHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26044&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 1 FULL HD" tvg-logo="" group-title="SPANISH",M. LaLiga 1 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24929&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 2 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. LaLiga 2 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=388&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 3 HD" tvg-logo="" group-title="SPANISH",M. LaLiga 3 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24927&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 4 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. LaLiga 4 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=390&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 5 HD" tvg-logo="" group-title="SPANISH",M. LaLiga 5 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24926&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 6" tvg-logo="" group-title="SPANISH",M. LaLiga 6
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24925&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 7 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. LaLiga 7 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=393&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 8 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. LaLiga 8 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=394&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES HD" tvg-logo="" group-title="SPANISH",M.LCAMPEONES HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=445&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES HD+" tvg-logo="" group-title="SPANISH",M.LCAMPEONES HD+
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26315&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES 1080P" tvg-logo="" group-title="SPANISH",M.LCAMPEONES 1080P
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26316&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES SD" tvg-logo="" group-title="SPANISH",M.LCAMPEONES SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26317&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES" tvg-logo="" group-title="SPANISH",M.LCAMPEONES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26318&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.Lcampeones 4K" tvg-logo="" group-title="SPANISH",M.Lcampeones 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26140&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES HEVC" tvg-logo="" group-title="SPANISH",M.LCAMPEONES HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26067&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEONES FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26078&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 1 HD (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M.LCAMPEON 1 HD (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=438&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEONES 1 SD" tvg-logo="" group-title="SPANISH",M.LCAMPEONES 1 SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26319&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 1 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON 1 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26079&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 1 4K" tvg-logo="" group-title="SPANISH",M.LCAMPEON 1 4K
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26175&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 2 HD (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M.LCAMPEON 2 HD (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=439&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" M.LCAMPEON 2  SD" tvg-logo="" group-title="SPANISH", M.LCAMPEON 2  SD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26320&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON2 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON2 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26080&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 3 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M.LCAMPEON 3 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=440&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON3 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON3 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26081&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 4 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M.LCAMPEON 4 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=441&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON4 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON4 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26082&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 5 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M.LCAMPEON 5 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=442&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON5 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON5 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26083&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 6 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M.LCAMPEON 6 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=443&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON6 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON6 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26084&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON 7 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M.LCAMPEON 7 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=444&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON7 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON7 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26085&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.LCAMPEON8 FULL HD" tvg-logo="" group-title="SPANISH",M.LCAMPEON8 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26086&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 9 HD" tvg-logo="" group-title="SPANISH",M. LaLiga 9 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24924&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. LaLiga 10" tvg-logo="" group-title="SPANISH",M. LaLiga 10
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24928&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#VAMOS HD" tvg-logo="" group-title="SPANISH",#VAMOS HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=379&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#VAMOS FULL HD" tvg-logo="" group-title="SPANISH",#VAMOS FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3819&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name=" #VAMOS BAR1 " tvg-logo="" group-title="SPANISH", #VAMOS BAR1 
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26268&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#VAMOS BAR 1 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",#VAMOS BAR 1 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=424&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#VAMOS BAR2 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",#VAMOS BAR2 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=436&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 ESP" tvg-logo="" group-title="SPANISH",DAZN 1 ESP
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24923&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 ESP" tvg-logo="" group-title="SPANISH",DAZN 2 ESP
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24922&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 3 ESP" tvg-logo="" group-title="SPANISH",DAZN 3 ESP
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26163&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 4 ESP" tvg-logo="" group-title="SPANISH",DAZN 4 ESP
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26164&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 5 ESP" tvg-logo="" group-title="SPANISH",DAZN 5 ESP
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26171&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 1 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26299&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 2 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26300&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 3 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 3 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26301&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 4 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 4 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26302&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 5 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 5 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26303&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 6 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 6 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26304&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 8 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 8 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26305&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 9 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 9 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26306&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 10 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 10 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26307&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 11 ( SOLO FUNCIONA CUANDO HAY EVENTOS )" tvg-logo="" group-title="SPANISH",DAZN 11 ( SOLO FUNCIONA CUANDO HAY EVENTOS )
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26308&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LALIGA TV BAR 1  (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",LALIGA TV BAR 1  (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=423&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LALIGA TV BAR 2" tvg-logo="" group-title="SPANISH",LALIGA TV BAR 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24931&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LALIGA TV BAR 3" tvg-logo="" group-title="SPANISH",LALIGA TV BAR 3
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=24930&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LALIGA TV BAR 4  (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",LALIGA TV BAR 4  (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=422&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 HD" tvg-logo="" group-title="SPANISH",EUROSPORT 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=352&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT1 FULL HD" tvg-logo="" group-title="SPANISH",EUROSPORT1 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3794&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2" tvg-logo="" group-title="SPANISH",EUROSPORT 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=414&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTESHD" tvg-logo="" group-title="SPANISH",M. DEPORTESHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=359&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES FULL HD" tvg-logo="" group-title="SPANISH",M. DEPORTES FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3800&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES1HD (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. DEPORTES1HD (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=427&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES2 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. DEPORTES2 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=428&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES3 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. DEPORTES3 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=429&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES4 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. DEPORTES4 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=430&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES5 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. DEPORTES5 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=431&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES6 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. DEPORTES6 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=432&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. DEPORTES7 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",M. DEPORTES7 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=433&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="MULTIDEPORTE" tvg-logo="" group-title="SPANISH",MULTIDEPORTE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=449&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TELEDEPORTE" tvg-logo="" group-title="SPANISH",TELEDEPORTE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=457&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Teledeporte FULL HD" tvg-logo="" group-title="SPANISH",Teledeporte FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3857&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Barca tv" tvg-logo="" group-title="SPANISH",Barca tv
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=384&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Barca tv FULL HD" tvg-logo="" group-title="SPANISH",Barca tv FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3823&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="R. Madrid" tvg-logo="" group-title="SPANISH",R. Madrid
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=455&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.MOTOGP FULL HD" tvg-logo="" group-title="SPANISH",M.MOTOGP FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3807&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.FORMULA 1 HD" tvg-logo="" group-title="SPANISH",M.FORMULA 1 HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=365&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.FORMULA1 FULL HD" tvg-logo="" group-title="SPANISH",M.FORMULA1 FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3806&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. GOLF HD" tvg-logo="" group-title="SPANISH",M. GOLF HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=361&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M. GOLF FULL HD" tvg-logo="" group-title="SPANISH",M. GOLF FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3802&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Gol" tvg-logo="" group-title="SPANISH",Gol
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=418&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="GOL FULL HD" tvg-logo="" group-title="SPANISH",GOL FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3843&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TRECE" tvg-logo="" group-title="SPANISH",TRECE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25853&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="PTV MALAGA" tvg-logo="" group-title="SPANISH",PTV MALAGA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25852&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="mega" tvg-logo="" group-title="SPANISH",mega
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25854&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CanalSurHD" tvg-logo="" group-title="SPANISH",CanalSurHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25851&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CanalSur2" tvg-logo="" group-title="SPANISH",CanalSur2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25850&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL TORREVISION" tvg-logo="" group-title="SPANISH",CANAL TORREVISION
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25849&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BOM" tvg-logo="" group-title="SPANISH",BOM
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25848&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="AndaluciaTV" tvg-logo="" group-title="SPANISH",AndaluciaTV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25847&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="7TV ANDALUCIA" tvg-logo="" group-title="SPANISH",7TV ANDALUCIA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25846&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NAT GEO HD" tvg-logo="" group-title="SPANISH",NAT GEO HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=370&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NAT GEO FULL HD" tvg-logo="" group-title="SPANISH",NAT GEO FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3810&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NG WILD HD" tvg-logo="" group-title="SPANISH",NG WILD HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=371&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NG WILD FULL HD" tvg-logo="" group-title="SPANISH",NG WILD FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3811&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CAZAyPESCA HD" tvg-logo="" group-title="SPANISH",CAZAyPESCA HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=402&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CAZAyPESCA FULL HD" tvg-logo="" group-title="SPANISH",CAZAyPESCA FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3831&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY" tvg-logo="" group-title="SPANISH",DISCOVERY
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=408&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Discovery FULL HD" tvg-logo="" group-title="SPANISH",Discovery FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3836&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Crimen Invest" tvg-logo="" group-title="SPANISH",Crimen Invest
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=407&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CRIMEN INVES FULL HD" tvg-logo="" group-title="SPANISH",CRIMEN INVES FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3835&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="VIAJAR HD" tvg-logo="" group-title="SPANISH",VIAJAR HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=377&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Viajar FULL HD" tvg-logo="" group-title="SPANISH",Viajar FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3817&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Disney CH FULL HD" tvg-logo="" group-title="SPANISH",Disney CH FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3837&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NICKELODEONHD" tvg-logo="" group-title="SPANISH",NICKELODEONHD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=452&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Nickelodeon FULL HD" tvg-logo="" group-title="SPANISH",Nickelodeon FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3853&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BOING" tvg-logo="" group-title="SPANISH",BOING
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=396&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BOING FULL HD" tvg-logo="" group-title="SPANISH",BOING FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3826&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BABY TV" tvg-logo="" group-title="SPANISH",BABY TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=383&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BABY TV FULL HD" tvg-logo="" group-title="SPANISH",BABY TV FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3822&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY JR" tvg-logo="" group-title="SPANISH",DISNEY JR
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=410&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Disney JR FULL HD" tvg-logo="" group-title="SPANISH",Disney JR FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3838&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NICK JR" tvg-logo="" group-title="SPANISH",NICK JR
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=451&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Nick Jr FULL HD" tvg-logo="" group-title="SPANISH",Nick Jr FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3852&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY CH HD" tvg-logo="" group-title="SPANISH",DISNEY CH HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=434&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL PANDA" tvg-logo="" group-title="SPANISH",CANAL PANDA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=401&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Canal Panda FULL HD" tvg-logo="" group-title="SPANISH",Canal Panda FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3830&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="FOX NEWS" tvg-logo="" group-title="SPANISH",FOX NEWS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=417&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CLAN  TVE" tvg-logo="" group-title="SPANISH",CLAN  TVE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=403&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="ARAGON TV INT" tvg-logo="" group-title="SPANISH",ARAGON TV INT
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=381&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="ARAGON TV FULL HD" tvg-logo="" group-title="SPANISH",ARAGON TV FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3820&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BLAZE" tvg-logo="" group-title="SPANISH",BLAZE
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=395&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BLAZE FULL HD" tvg-logo="" group-title="SPANISH",BLAZE FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3825&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BE MAD" tvg-logo="" group-title="SPANISH",BE MAD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=385&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BE MAD" tvg-logo="" group-title="SPANISH",BE MAD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=1607&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BE MAD FULL HD" tvg-logo="" group-title="SPANISH",BE MAD FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3824&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="FDF" tvg-logo="" group-title="SPANISH",FDF
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=415&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="FDF FULL HD" tvg-logo="" group-title="SPANISH",FDF FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3841&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Energy" tvg-logo="" group-title="SPANISH",Energy
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=413&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Energy FULL HD" tvg-logo="" group-title="SPANISH",Energy FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3840&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DIVINITY" tvg-logo="" group-title="SPANISH",DIVINITY
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=412&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Divinity FULL HD" tvg-logo="" group-title="SPANISH",Divinity FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3839&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Clan TVE FULL HD" tvg-logo="" group-title="SPANISH",Clan TVE FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3832&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL ODISEA" tvg-logo="" group-title="SPANISH",CANAL ODISEA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=399&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Canal odisea FULL HD" tvg-logo="" group-title="SPANISH",Canal odisea FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3829&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL DECASA" tvg-logo="" group-title="SPANISH",CANAL DECASA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=398&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Canal Decasa FULL HD" tvg-logo="" group-title="SPANISH",Canal Decasa FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3828&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL COCINA" tvg-logo="" group-title="SPANISH",CANAL COCINA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=397&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Canal COCINA FULL HD" tvg-logo="" group-title="SPANISH",Canal COCINA FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3827&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Neox" tvg-logo="" group-title="SPANISH",Neox
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=450&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Neox FULL HD" tvg-logo="" group-title="SPANISH",Neox FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3851&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NOVA" tvg-logo="" group-title="SPANISH",NOVA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=453&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NOVA FULL HD" tvg-logo="" group-title="SPANISH",NOVA FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3854&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="IBERALIA TV" tvg-logo="" group-title="SPANISH",IBERALIA TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=420&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="IBERALIA TV FULL HD" tvg-logo="" group-title="SPANISH",IBERALIA TV FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3845&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Historia" tvg-logo="" group-title="SPANISH",Historia
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=419&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Historia FULL HD" tvg-logo="" group-title="SPANISH",Historia FULL HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=3844&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CULTURA" tvg-logo="" group-title="SPANISH",CULTURA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=465&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="VIDA RTV" tvg-logo="" group-title="SPANISH",VIDA RTV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25856&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TVCRISTIANA" tvg-logo="" group-title="SPANISH",TVCRISTIANA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25860&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NACIONAL 6" tvg-logo="" group-title="SPANISH",TV NACIONAL 6
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25862&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NACIONAL 5" tvg-logo="" group-title="SPANISH",TV NACIONAL 5
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25863&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NACIONAL 4" tvg-logo="" group-title="SPANISH",TV NACIONAL 4
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25864&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NACIONAL 2" tvg-logo="" group-title="SPANISH",TV NACIONAL 2
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25868&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TV NACIONAL 1" tvg-logo="" group-title="SPANISH",TV NACIONAL 1
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25859&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TEN" tvg-logo="" group-title="SPANISH",TEN
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25869&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Realmadrid TV HD" tvg-logo="" group-title="SPANISH",Realmadrid TV HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25867&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="PARAMOUNT NETWORK" tvg-logo="" group-title="SPANISH",PARAMOUNT NETWORK
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25871&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DMAX" tvg-logo="" group-title="SPANISH",DMAX
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25857&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DKISS" tvg-logo="" group-title="SPANISH",DKISS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25866&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CANAL MÃLAGA" tvg-logo="" group-title="SPANISH",CANAL MÃLAGA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25858&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BeMad tv HD" tvg-logo="" group-title="SPANISH",BeMad tv HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25870&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="atreseries HD" tvg-logo="" group-title="SPANISH",atreseries HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25865&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="101 TV" tvg-logo="" group-title="SPANISH",101 TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=25861&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="MUSICA" tvg-logo="" group-title="SPANISH",MUSICA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=464&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="DEPORTES" tvg-logo="" group-title="SPANISH",DEPORTES
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=459&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="MEZZO LIVE HD" tvg-logo="" group-title="SPANISH",MEZZO LIVE HD
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=369&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Mezzo" tvg-logo="" group-title="SPANISH",Mezzo
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=446&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="Classica" tvg-logo="" group-title="SPANISH",Classica
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=404&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="MTV ESPANA" tvg-logo="" group-title="SPANISH",MTV ESPANA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=447&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINLALIGA 1 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",BEINLALIGA 1 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=425&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINLALIGA1 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",BEINLALIGA1 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=387&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINLALIGA3 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",BEINLALIGA3 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=389&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINLALIGA5 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",BEINLALIGA5 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=391&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="BEINLALIGA6 (SOLO EVENTOS)" tvg-logo="" group-title="SPANISH",BEINLALIGA6 (SOLO EVENTOS)
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=392&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="ENTRETENIMIENTO" tvg-logo="" group-title="SPANISH",ENTRETENIMIENTO
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=461&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="GENERALISTAS" tvg-logo="" group-title="SPANISH",GENERALISTAS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=466&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NIOS" tvg-logo="" group-title="SPANISH",NIOS
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=463&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="PELCULA" tvg-logo="" group-title="SPANISH",PELCULA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=460&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="INFORMACIN" tvg-logo="" group-title="SPANISH",INFORMACIN
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=462&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NOVELAS TV" tvg-logo="" group-title="SPANISH",NOVELAS TV
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26077&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="#VAMOS HEVC" tvg-logo="" group-title="SPANISH",#VAMOS HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26068&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="TOROS HEVC" tvg-logo="" group-title="SPANISH",TOROS HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26071&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NATIONAL GEOGRAPHIC HEVC" tvg-logo="" group-title="SPANISH",NATIONAL GEOGRAPHIC HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26070&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="NAT GEO WILD HEVC" tvg-logo="" group-title="SPANISH",NAT GEO WILD HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26069&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.SERIES HEVC" tvg-logo="" group-title="SPANISH",M.SERIES HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26063&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.ESTRENOS HEVC" tvg-logo="" group-title="SPANISH",M.ESTRENOS HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26064&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.DEPORTES HEVC" tvg-logo="" group-title="SPANISH",M.DEPORTES HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26066&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.COMEDIA HEVC" tvg-logo="" group-title="SPANISH",M.COMEDIA HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26062&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="M.ACCION HEVC" tvg-logo="" group-title="SPANISH",M.ACCION HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26061&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="LALIGA TV HEVC" tvg-logo="" group-title="SPANISH",LALIGA TV HEVC
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26065&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="INTERECONOMIA" tvg-logo="" group-title="SPANISH",INTERECONOMIA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26060&t=live&f=ts
+#EXTINF:-1 tvg-id="" tvg-name="CASTILLA LA MANCHA" tvg-logo="" group-title="SPANISH",CASTILLA LA MANCHA
+plugin://plugin.video.f4mTester/?name=Naranjito&streamtype=TSDOWNLOADER&amp;url=http://demou3mNYPG3lKei9zZyd2.speednet.live/live/cra4.php?z=997&u=TSTnd4PLQ9IvA&s=002161615035&id=26059&t=live&f=ts
 
